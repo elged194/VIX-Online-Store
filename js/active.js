@@ -82,7 +82,7 @@
           items: 1,
         },
         480: {
-          items: 2,
+          items: 1,
         },
         768: {
           items: 3,
@@ -290,7 +290,8 @@ $(function () {
 });
 
 /*=====================================
-	  Women Banner
+   index	  
+   Women Banner & Reviews
 	======================================*/
 var owl = $(".owl-carousel");
 owl.owlCarousel({
@@ -299,10 +300,10 @@ owl.owlCarousel({
   margin: 10,
   responsive: {
     0: {
-      items: 2,
+      items: 1,
     },
     600: {
-      items: 3,
+      items: 2,
     },
     960: {
       items: 3,
