@@ -391,7 +391,19 @@
 }
 
 /* Mobile Screen */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
+  /* index > Women */
+  .product-large img {
+    height: auto;
+  }
+  .product-large {
+    height: auto;
+  }
+
+  /* INDEX -Advertisement */
+  .Advertisement .img2 img {
+    height: auto;
+  }
   /* My-account */
   .woo-account-page .LASR-SEEN .row2 {
     display: none;
@@ -563,7 +575,7 @@
   .header.shop .right-content .list-main {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
   }
   .header .middle-inner {
     width: 100%;
@@ -1167,7 +1179,28 @@
   }
 }
 /* Mobile Screen */
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 420px) {
+  /* 
+  index
+  header
+  */
+  .header.shop .right-content .list-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+  }
+  .header.shop .list-main li {
+    border: none;
+  }
+  /* 
+  index 
+  nav bar
+  */
+  .Nav-Corner {
+    top: 32.2%;
+  }
+
   .site-header.sticky .header-bottom {
     position: absolute;
     z-index: 999;
