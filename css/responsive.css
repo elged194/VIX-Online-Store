@@ -152,23 +152,7 @@
   .header.shop .nav .dropdown li {
     display: block;
   }
-  .hero-slider {
-    height: 416px;
-  }
-  .hero-slider .hero-text {
-    margin-top: 80px;
-  }
-  .hero-slider .hero-text h1 {
-    font-size: 35px;
-    margin-bottom: 5px;
-  }
-  .hero-slider .hero-text h1 span {
-    font-size: 17px;
-    margin-bottom: 0;
-  }
-  .hero-slider .hero-text .btn {
-    padding: 12px 30px;
-  }
+
   .hero-area2 .single-slider {
     height: 400px;
   }
@@ -630,27 +614,6 @@
   }
   .header .header-inner {
     display: none;
-  }
-  .hero-slider {
-    height: 350px;
-  }
-  .hero-slider .hero-text {
-    margin-top: 60px;
-  }
-  .hero-slider .hero-text h1 {
-    font-size: 30px;
-    margin-bottom: 0px;
-  }
-  .hero-slider .hero-text h1 span {
-    font-size: 15px;
-    margin-bottom: 0;
-  }
-  .hero-slider .hero-text p {
-    color: #333;
-    margin-bottom: 28px;
-  }
-  .hero-slider .hero-text .btn {
-    padding: 10px 25px;
   }
 
   .hero-area4 .big-content {
@@ -1233,27 +1196,6 @@
   }
   .header.shop .nav li .new {
     display: none !important;
-  }
-  .hero-slider {
-    height: 350px;
-  }
-  .hero-slider .hero-text {
-    margin-top: 60px;
-  }
-  .hero-slider .hero-text h1 {
-    font-size: 30px;
-    margin-bottom: 0px;
-  }
-  .hero-slider .hero-text h1 span {
-    font-size: 15px;
-    margin-bottom: 0;
-  }
-  .hero-slider .hero-text p {
-    color: #333;
-    margin-bottom: 28px;
-  }
-  .hero-slider .hero-text .btn {
-    padding: 10px 25px;
   }
 
   .product-area .nav-tabs .nav-item {
