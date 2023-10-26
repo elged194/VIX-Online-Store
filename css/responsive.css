@@ -992,6 +992,9 @@
 }
 /* Mobile Screen */
 @media only screen and (max-width: 425px) {
+  .hero-slider .carousel img {
+    height: auto;
+  }
   /* header */
   .header.shop .right-content {
     padding: 4px 0px;
