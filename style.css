@@ -1,6 +1,3 @@
-/* =====================================
-
-========================================*/
 /*======================================
 [ CSS Table of contents ]
 01. Preloader CSS
@@ -3944,59 +3941,22 @@ body {
     //  class: |16|Hero slider| css
     //  class:  Slider css
 	======================================*/
-.hero-slider {
-  background: #fff;
-  overflow: hidden;
+.hero-slider .carousel img {
+  height: 500px;
 }
-.hero-slider .single-slider {
-  height: auto;
-  background-position: center;
-  height: 510px;
+.hero-slider button:not(:disabled) {
+  width: 120px;
+  z-index: 1;
 }
-.hero-slider .hero-text {
-  padding: 0 30px;
-  margin-top: 100px;
-}
-.hero-slider .hero-text h1 {
-  line-height: 50px;
-  font-size: 47px;
-  font-weight: 700;
-  color: #f7941d;
-  margin-bottom: 20px;
-}
-.hero-slider .hero-text h1 span {
-  font-size: 20px;
-  display: block;
-  margin-bottom: 12px;
-  color: #333;
-  font-weight: 700;
-  line-height: initial;
-}
-.hero-slider .hero-text p {
-  color: #333;
-  margin-bottom: 35px;
-}
-.hero-slider .hero-text .button {
-  margin: 0;
-}
-.hero-slider .hero-text .btn {
-  color: #fff;
-  background: #333;
-  padding: 13px 30px;
-  line-height: initial;
-  border: none;
-  height: auto;
-  z-index: 0;
-}
-.hero-slider .hero-text .btn:hover {
-  background: #8fb339;
-  color: #fff;
-}
-.slider {
+.hero-slider .carousel-caption {
+  background-color: #8fb33991;
+  z-index: 2;
   width: 100%;
-  height: 430px;
+  left: 0px;
+  height: 100%;
+  bottom: 0px;
 }
-.slider .arrow {
+.hero-slider .arrow {
   display: inline-grid;
   font-size: 45px;
   position: absolute;
@@ -4004,13 +3964,13 @@ body {
   right: 9%;
   z-index: 5;
 }
-.slider .arrow .fa-solid {
+.hero-slider .arrow .fa-solid {
   margin: -13px 0px;
 }
-.slider .arrow .fa-1 {
+.hero-slider .arrow .fa-1 {
   animation: arrow 1s infinite;
 }
-.slider .arrow .fa-2 {
+.hero-slider .arrow .fa-2 {
   animation: arrow2 1s infinite;
 }
 @keyframes arrow2 {
@@ -4035,70 +3995,18 @@ body {
     color: #fff;
   }
 }
-.slider .carousel-item .img1 {
-  transform: scale(1.5);
-  animation: slider 15s infinite;
-}
-.slider .carousel-item .img2 {
-  transform: scale(1);
-  animation: slider2 15s infinite;
-}
-@keyframes slider {
-  100% {
-    transform: scale(1);
-  }
-}
-@keyframes slider2 {
-  100% {
-    transform: scale(1.5);
-  }
-}
-.slider .carousel-indicators {
-  z-index: 5;
-}
-.slider .arrow-video {
+.hero-slider .arrow-video {
   width: 700%;
   position: absolute;
   top: 200%;
   right: -70%;
   display: none;
 }
-.slider .arrow:hover > .arrow-video {
+.hero-slider .arrow:hover > .arrow-video {
   display: block;
   transition: all 1.5s;
 }
-@media (min-width: 992px) {
-  .slider {
-    width: 100%;
-    float: right;
-  }
-}
-@media (min-width: 576px) {
-}
-.carousel-inner,
-.carousel-inner img,
-.carousel,
-.carousel-item .active {
-  height: 425px;
-  width: 100%;
-  float: right;
-}
-.carousel-control-next,
-.carousel-control-prev {
-  width: 8%;
-}
-.slider .carousel-caption {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  color: #fff;
-  background-color: #8fb3396b;
-  text-align: center;
-  width: 100%;
-  height: 100%;
-  z-index: 2;
-}
-.slider .carousel-caption .text {
+.hero-slider .carousel-caption .text {
   width: 50%;
   height: 100%;
   display: flex;
@@ -4107,10 +4015,10 @@ body {
   text-align: justify;
   /* position: relative; */
 }
-.slider .carousel-caption .text .text2 {
+.hero-slider .carousel-caption .text .text2 {
   width: 60%;
 }
-.slider .carousel-caption .text .tex1 {
+.hero-slider .carousel-caption .text .tex1 {
   padding: 7px;
   background-color: #8fb339;
   border-radius: 50px;
@@ -4119,35 +4027,32 @@ body {
   right: 27%;
   transition: all 1s;
 }
-.slider .carousel-caption .text .tex1 div {
+.hero-slider .carousel-caption .text .tex1 div {
   border: dashed 2px #fff;
   border-radius: 50px;
   padding: 17px;
 }
-.slider .carousel-caption .text:hover > .tex1 {
+.hero-slider .carousel-caption .text:hover > .tex1 {
   transform: rotate(45deg);
 }
-.slider .carousel-caption .text div {
+.hero-slider .carousel-caption .text div {
   color: #fff;
 }
-.slider .carousel-caption .text div p {
+.hero-slider .carousel-caption .text div p {
   color: #fff;
   margin-bottom: 15px;
 }
-.slider .carousel-caption .text .text2 a {
+.hero-slider .carousel-caption .text .text2 a {
   background-color: #8fb339;
   padding: 10px 30px;
   font-weight: bold;
   font-size: 15px;
 }
-.slider .carousel-caption .text .text2 a:hover {
+.hero-slider .carousel-caption .text .text2 a:hover {
   background-color: #333;
 }
-.slider .carousel-caption .text .text2 span {
-  color: #8fb339;
-}
-.carousel-control-prev {
-  left: 23px;
+.hero-slider .carousel-caption .text .text2 span {
+  color: #536d17;
 }
 /*=====================================
     //  END
