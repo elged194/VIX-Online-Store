@@ -992,6 +992,11 @@
 }
 /* Mobile Screen */
 @media only screen and (max-width: 425px) {
+  .header.shop .right-content .list-main .nice-select {
+    padding: 0px;
+    width: 53px;
+  }
+  /* slider */
   .hero-slider .carousel img {
     height: auto;
   }
@@ -1139,7 +1144,7 @@
     top: 4px;
   }
   .header.shop .logo {
-    margin: 0;
+    margin-left: 11px;
   }
   .section {
     padding: 50px 0px;
