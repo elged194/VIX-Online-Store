@@ -1,3 +1,6 @@
+/* =====================================
+
+========================================*/
 /*======================================
 [ CSS Table of contents ]
 01. Preloader CSS
@@ -133,8 +136,8 @@ body {
 }
 .preloader-inner {
   position: absolute;
-  top: 45%;
-  left: 43%;
+  top: 40%;
+  left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -191,9 +194,9 @@ body {
 	======================================*/
 .Nav-Corner {
   position: fixed;
-  display: block;
+  /* display: block; */
   z-index: 99998;
-  width: 100px;
+  /* width: 100px; */
   background: #8fb339;
   right: -100px;
   border-radius: 7px;
@@ -210,7 +213,7 @@ body {
   padding-left: 2px;
   height: 45px;
   line-height: 45px;
-  font-size: 21px;
+
   border-radius: 5px 0 0 5px;
   background: #fff;
   text-align: center;
@@ -1077,18 +1080,20 @@ body {
   visibility: visible;
 }
 .header.shop .main-category .sub-JEWELRY a i {
-  display: inline-block;
   display: none;
-  float: right;
-  padding-top: 5px;
+
   margin-right: 8px;
 }
 .header.shop .main-category .sub-JEWELRY a {
-  padding: 5px;
+  padding: 7px;
 }
 .header.shop .main-category .sub-JEWELRY a:hover {
   background-color: #8fb339;
   color: #fff;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
 }
 .header.shop .main-category .sub-JEWELRY a:hover > i {
   display: block;
@@ -2757,7 +2762,7 @@ body {
 }
 /* size-select */
 .product-name .size-select {
-  width: 80%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -2768,7 +2773,7 @@ body {
 }
 .product-name .size-select label span {
   padding: 3px 10px;
-  border: solid 2px #333;
+  border: solid 1px #333;
 }
 .product-name .size-select input:checked + span {
   color: #8fb339;
@@ -2804,7 +2809,7 @@ body {
 }
 /* qty */
 .shopping-cart tbody .qty .input-group {
-  width: 175px;
+  width: 100%;
   display: inline-block;
 }
 .shopping-cart .qty .button {
@@ -3355,7 +3360,7 @@ body {
 .shop.login .form .btn,
 .shop.login .Register .btn {
   display: inline-block;
-  margin-right: 10px;
+
   height: 46px;
   color: #fff;
   line-height: 20px;
@@ -3941,22 +3946,59 @@ body {
     //  class: |16|Hero slider| css
     //  class:  Slider css
 	======================================*/
-.hero-slider .carousel img {
-  height: 500px;
+.hero-slider {
+  background: #fff;
+  overflow: hidden;
 }
-.hero-slider button:not(:disabled) {
-  width: 120px;
-  z-index: 1;
+.hero-slider .single-slider {
+  height: auto;
+  background-position: center;
+  height: 510px;
 }
-.hero-slider .carousel-caption {
-  background-color: #8fb33991;
-  z-index: 2;
+.hero-slider .hero-text {
+  padding: 0 30px;
+  margin-top: 100px;
+}
+.hero-slider .hero-text h1 {
+  line-height: 50px;
+  font-size: 47px;
+  font-weight: 700;
+  color: #f7941d;
+  margin-bottom: 20px;
+}
+.hero-slider .hero-text h1 span {
+  font-size: 20px;
+  display: block;
+  margin-bottom: 12px;
+  color: #333;
+  font-weight: 700;
+  line-height: initial;
+}
+.hero-slider .hero-text p {
+  color: #333;
+  margin-bottom: 35px;
+}
+.hero-slider .hero-text .button {
+  margin: 0;
+}
+.hero-slider .hero-text .btn {
+  color: #fff;
+  background: #333;
+  padding: 13px 30px;
+  line-height: initial;
+  border: none;
+  height: auto;
+  z-index: 0;
+}
+.hero-slider .hero-text .btn:hover {
+  background: #8fb339;
+  color: #fff;
+}
+.slider {
   width: 100%;
-  left: 0px;
-  height: 100%;
-  bottom: 0px;
+  height: 430px;
 }
-.hero-slider .arrow {
+.slider .arrow {
   display: inline-grid;
   font-size: 45px;
   position: absolute;
@@ -3964,13 +4006,13 @@ body {
   right: 9%;
   z-index: 5;
 }
-.hero-slider .arrow .fa-solid {
+.slider .arrow .fa-solid {
   margin: -13px 0px;
 }
-.hero-slider .arrow .fa-1 {
+.slider .arrow .fa-1 {
   animation: arrow 1s infinite;
 }
-.hero-slider .arrow .fa-2 {
+.slider .arrow .fa-2 {
   animation: arrow2 1s infinite;
 }
 @keyframes arrow2 {
@@ -3995,18 +4037,70 @@ body {
     color: #fff;
   }
 }
-.hero-slider .arrow-video {
+.slider .carousel-item .img1 {
+  transform: scale(1.5);
+  animation: slider 15s infinite;
+}
+.slider .carousel-item .img2 {
+  transform: scale(1);
+  animation: slider2 15s infinite;
+}
+@keyframes slider {
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes slider2 {
+  100% {
+    transform: scale(1.5);
+  }
+}
+.slider .carousel-indicators {
+  z-index: 5;
+}
+.slider .arrow-video {
   width: 700%;
   position: absolute;
   top: 200%;
   right: -70%;
   display: none;
 }
-.hero-slider .arrow:hover > .arrow-video {
+.slider .arrow:hover > .arrow-video {
   display: block;
   transition: all 1.5s;
 }
-.hero-slider .carousel-caption .text {
+@media (min-width: 992px) {
+  .slider {
+    width: 100%;
+    float: right;
+  }
+}
+@media (min-width: 576px) {
+}
+.carousel-inner,
+.carousel-inner img,
+.carousel,
+.carousel-item .active {
+  height: 425px;
+  width: 100%;
+  float: right;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  width: 8%;
+}
+.slider .carousel-caption {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: #fff;
+  background-color: #8fb3396b;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.slider .carousel-caption .text {
   width: 50%;
   height: 100%;
   display: flex;
@@ -4015,10 +4109,10 @@ body {
   text-align: justify;
   /* position: relative; */
 }
-.hero-slider .carousel-caption .text .text2 {
+.slider .carousel-caption .text .text2 {
   width: 60%;
 }
-.hero-slider .carousel-caption .text .tex1 {
+.slider .carousel-caption .text .tex1 {
   padding: 7px;
   background-color: #8fb339;
   border-radius: 50px;
@@ -4027,32 +4121,35 @@ body {
   right: 27%;
   transition: all 1s;
 }
-.hero-slider .carousel-caption .text .tex1 div {
+.slider .carousel-caption .text .tex1 div {
   border: dashed 2px #fff;
   border-radius: 50px;
   padding: 17px;
 }
-.hero-slider .carousel-caption .text:hover > .tex1 {
+.slider .carousel-caption .text:hover > .tex1 {
   transform: rotate(45deg);
 }
-.hero-slider .carousel-caption .text div {
+.slider .carousel-caption .text div {
   color: #fff;
 }
-.hero-slider .carousel-caption .text div p {
+.slider .carousel-caption .text div p {
   color: #fff;
   margin-bottom: 15px;
 }
-.hero-slider .carousel-caption .text .text2 a {
+.slider .carousel-caption .text .text2 a {
   background-color: #8fb339;
   padding: 10px 30px;
   font-weight: bold;
   font-size: 15px;
 }
-.hero-slider .carousel-caption .text .text2 a:hover {
+.slider .carousel-caption .text .text2 a:hover {
   background-color: #333;
 }
-.hero-slider .carousel-caption .text .text2 span {
-  color: #536d17;
+.slider .carousel-caption .text .text2 span {
+  color: #8fb339;
+}
+.carousel-control-prev {
+  left: 23px;
 }
 /*=====================================
     //  END
@@ -5138,7 +5235,7 @@ body {
   padding: 8px 17px;
 }
 .SAVED-ITEM .list-content .product-img img {
-  height: 230px;
+  height: 200px;
 }
 .SAVED-ITEM .list-content .product-img:hover a {
   opacity: 1;
@@ -5601,6 +5698,7 @@ textarea {
 }
 .LASR-SEEN .card img {
   border-radius: 10px;
+  height: 188px;
 }
 .LASR-SEEN .card:hover > img {
   opacity: 0.5;
