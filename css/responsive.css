@@ -2,36 +2,37 @@
 
 ========================================*/
 /* Laptop L */
-@media only screen and (min-width: 1440px) {
-  .Nav-Corner {
-    right: -66px;
-    top: 19.5%;
-  }
+@media only screen and (max-width: 1440px) {
 }
 /* Laptop  */
-@media only screen and (min-width: 1024px) {
-  /* .header.shop .sub-category {
-    left: 204px;
+/* @media only screen and (max-width: 1024px) {
+  .Nav-Corner {
+    right: -97px;
+    top: 28%;
   }
-  .header.shop .sub-PHONES {
-    left: 204px;
+  .header .nav .MEN .dropdown {
+    width: 760px;
+    position: absolute;
+    top: 100%;
+    left: -294px;
+    max-height: 480px;
+    overflow-x: scroll;
   }
-  .header.shop .sub-JEWELRY {
-    left: 204px;
-  } */
-  .shop.login .Register .Register-btn {
-    margin-top: 80px;
+  .header .nav .WOMEN .dropdown {
+    width: 761px;
+    max-height: 480px;
+    overflow-x: scroll;
+    left: -184px;
   }
-}
+} */
 /* Tablet Screen */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (max-width: 768px) and (max-width: 991px) {
   .section {
     padding: 50px 0px;
   }
   .shopping-cart .nav2 ul {
     width: 100%;
   }
-
   .shop.single {
     padding: 30px 0 50px 0;
   }
@@ -49,21 +50,17 @@
   .shop-services.section {
     padding: 45px 0 0px 0;
   }
-  .header.shop .top-left {
-    justify-content: center;
-  }
-  .header.shop .right-content,
-  .header.shop .right-content .list-main {
-    justify-content: center;
-  }
-  .Nav-Corner {
-    top: 27.2%;
+
+  .shop-list .list-content {
+    height: auto;
   }
 
   .SAVED-ITEM .list-content .product-img img {
-    height: 275px;
+    height: auto;
   }
-
+  .MAY-ALSO-LINK .list-content .product-img img {
+    height: auto;
+  }
   .SAVED-ITEM .list-content {
     height: auto;
   }
@@ -74,14 +71,7 @@
     float: none;
     text-align: center;
   }
-  .header.shop .topbar .top-left {
-    text-align: center;
-  }
-  .header.shop .topbar .right-content {
-    text-align: center;
-    float: none;
-    margin-top: 8px;
-  }
+
   .header.shop .right-bar .sinlge-bar .single-icon {
     font-size: 18px;
   }
@@ -162,23 +152,7 @@
   .header.shop .nav .dropdown li {
     display: block;
   }
-  .hero-slider {
-    height: 416px;
-  }
-  .hero-slider .hero-text {
-    margin-top: 80px;
-  }
-  .hero-slider .hero-text h1 {
-    font-size: 35px;
-    margin-bottom: 5px;
-  }
-  .hero-slider .hero-text h1 span {
-    font-size: 17px;
-    margin-bottom: 0;
-  }
-  .hero-slider .hero-text .btn {
-    padding: 12px 30px;
-  }
+
   .hero-area2 .single-slider {
     height: 400px;
   }
@@ -202,7 +176,58 @@
     margin-top: 22px;
     font-size: 12px;
   }
-
+  /* .hero-area3 .big-content {
+    height: 400px;
+    margin-top: 16px;
+  }
+  .hero-area3 .big-content .title {
+    font-size: 25px;
+    margin-bottom: 12px;
+    line-height: 35px;
+  }
+  .hero-area3 .big-content .button {
+    margin-top: 30px;
+    display: block;
+  }
+  .hero-area3 .big-content .button .btn {
+    color: #fff;
+    padding: 10px 24px;
+  }
+  .hero-area3 .small-content {
+    margin-top: 15px;
+  }
+  .hero-area3 .small-content.first {
+    width: 49%;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .hero-area3 .small-content.secound {
+    width: 49%;
+    display: inline-block;
+    float: right;
+  } */
+  /* .hero-area4 .big-content {
+    height: 400px;
+    margin-top: 20px;
+  }
+  .hero-area4 .big-content .inner {
+    padding: 0;
+    padding-right: 30px;
+  }
+  .hero-area4 .big-content .title {
+    font-size: 25px;
+    margin-bottom: 20px;
+    line-height: 30px;
+  }
+  .hero-area4 .big-content .des {
+    font-size: 13px;
+  }
+  .hero-area4 .big-content .button {
+    margin-top: 30px;
+  }
+  .hero-area4 .big-content .button .btn {
+    padding: 10px 20px;
+  } */
   .small-banner {
     padding: 18px 0;
   }
@@ -218,11 +243,42 @@
   .quickview-content .size .title {
     margin-top: 16px;
   }
-
+  /* .midium-banner .single-banner .content {
+    padding: 35px;
+  }
+  .midium-banner .single-banner h3 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .midium-banner .single-banner a {
+    padding: 6px 20px;
+    margin-top: 15px;
+  } */
+  /* .most-popular .single-product {
+    margin: 20px 15px 0 15px;
+  } */
   .shop-home-list .shop-section-title {
     margin-top: 20px;
   }
-
+  /* .cown-down {
+    height: auto;
+  }
+  .cown-down .padding-left {
+    padding: 0;
+  }
+  .cown-down .padding-right {
+    padding: 0;
+  }
+  .cown-down .content {
+    padding: 50px 110px;
+  }
+  .cown-down .content .heading-block {
+    padding: 0;
+    position: relative;
+  } */
+  /* .shop-blog .shop-single-blog {
+    margin-bottom: 30px;
+  } */
   .shop-services {
     padding: 50px 0;
   }
@@ -232,7 +288,12 @@
   .shop-newsletter .newsletter-inner input {
     width: 380px;
   }
-
+  /* .shop-blog.grid .shop-single-blog {
+    margin-top: 0px;
+  } */
+  /* .main-sidebar .side-tags .tag {
+    margin-top: 30px;
+  } */
   .shopping-cart .table td {
     padding: 20px;
   }
@@ -265,7 +326,13 @@
     padding: 30px;
     margin-top: 30px;
   }
-
+  /* .about-us .about-content {
+    padding: 0;
+    margin-bottom: 30px;
+  } */
+  /* .error-page .error-inner h2 {
+    font-size: 100px;
+  } */
   .footer .copyright .left {
     float: none;
     text-align: center;
@@ -278,7 +345,9 @@
   .footer .single-footer {
     padding: 20px 0;
   }
-
+  .MAY-ALSO-LINK .list-content .product-img img {
+    height: auto;
+  }
   .header .nav .MEN .dropdown {
     width: 660px;
     position: absolute;
@@ -297,28 +366,34 @@
 
 /* Mobile Screen */
 @media only screen and (max-width: 768px) {
+  .header.shop .top-left {
+    justify-content: center;
+    border-bottom: solid 1px #fff;
+    margin: 0px;
+    padding: 5px 0px;
+  }
+  .header.shop .right-content,
+  .header.shop .right-content .list-main {
+    justify-content: space-evenly;
+    padding: 3px 0px;
+  }
+  /* index > Women */
+  .product-large img {
+    height: auto;
+  }
+  .product-large {
+    height: auto;
+  }
+
+  /* INDEX -Advertisement */
+  .Advertisement .img2 img {
+    height: auto;
+  }
   /* My-account */
   .woo-account-page .LASR-SEEN .row2 {
     display: none;
   }
-  .related-products-item .list-content {
-    height: 600px;
-  }
-  .LASR-SEEN .card img {
-    height: 140px;
-  }
-  .Lest-Seen .card-body {
-    padding: 2px;
-  }
-  .related-products-item .list-content .product-img img {
-    height: 450px;
-  }
-  .MAY-ALSO-LINK .list-content .product-img img {
-    height: 250px;
-  }
-  .MAY-ALSO-LINK .list-content .list-content {
-    height: 415px;
-  }
+
   .woo-account-page .woocommerce-MyAccount-content h2:before {
     left: 47%;
     width: 100px;
@@ -333,7 +408,13 @@
     padding: 90px 0 90px;
   }
   .shop-list .list-content .product-img img {
-    height: 316px;
+    height: 400px;
+  }
+  .related-products-item .list-content .product-img img {
+    height: 400px;
+  }
+  .related-products-item .list-content {
+    height: auto;
   }
 
   .woo-account-page .woocommerce-MyAccount-content,
@@ -476,11 +557,7 @@
   .header.shop .right-bar {
     display: none;
   }
-  .header.shop .right-content .list-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+
   .header .middle-inner {
     width: 100%;
   }
@@ -504,7 +581,7 @@
   }
   .header.shop .logo {
     margin: 0;
-    width: 10%;
+    width: 15%;
     margin-left: 22px;
   }
   .section {
@@ -524,15 +601,7 @@
   .breadcrumbs {
     padding: 20px 0;
   }
-  .header.shop .topbar .top-left {
-    display: flex;
-    justify-content: center;
-  }
-  .header.shop .topbar .right-content {
-    text-align: center;
-    float: none;
-    margin-top: 8px;
-  }
+
   .header.shop .search-bar {
     width: 445px;
   }
@@ -545,27 +614,6 @@
   }
   .header .header-inner {
     display: none;
-  }
-  .hero-slider {
-    height: 350px;
-  }
-  .hero-slider .hero-text {
-    margin-top: 60px;
-  }
-  .hero-slider .hero-text h1 {
-    font-size: 30px;
-    margin-bottom: 0px;
-  }
-  .hero-slider .hero-text h1 span {
-    font-size: 15px;
-    margin-bottom: 0;
-  }
-  .hero-slider .hero-text p {
-    color: #333;
-    margin-bottom: 28px;
-  }
-  .hero-slider .hero-text .btn {
-    padding: 10px 25px;
   }
 
   .hero-area4 .big-content {
@@ -850,7 +898,8 @@
     text-align: center;
   }
   .shop-list .list-content {
-    height: 440px;
+    margin-top: 30px;
+    height: 550px;
   }
   .shop-list .list-content .btn {
     height: auto;
@@ -940,16 +989,39 @@
   .quickview-content .add-to-cart .btn.min {
     line-height: 41px;
   }
-
-  .Lest-Seen .card-img-top {
-    height: 150px;
-  }
-  .Advertisement .img2 img {
-    height: auto;
-  }
 }
 /* Mobile Screen */
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 425px) {
+  .header.shop .right-content .list-main .nice-select {
+    padding: 0px;
+    width: 53px;
+  }
+  /* slider */
+  .hero-slider .carousel img {
+    height: auto;
+  }
+  /* header */
+  .header.shop .right-content {
+    padding: 4px 0px;
+  }
+  .header.shop .top-left {
+    margin: 0px;
+    text-align: center;
+    border-bottom: solid 1px #fff;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px;
+  }
+  .header.shop .right-content,
+  .header.shop .right-content .list-main {
+    justify-content: space-between;
+  }
+  /* index >>  nav bar */
+  .Nav-Corner {
+    top: 26.2%;
+    right: -100px;
+  }
+
   .site-header.sticky .header-bottom {
     position: absolute;
     z-index: 999;
@@ -958,38 +1030,6 @@
     bottom: initial;
   }
 
-  .shop.login .form .btn,
-  .shop.login .Register .btn {
-    width: 100%;
-    text-align: center;
-    height: auto;
-    margin-bottom: 10px;
-  }
-  .product-name .size-select label span {
-    padding: 2px 3px;
-  }
-  .product-name .size-select {
-    width: 100%;
-  }
-  .MAY-ALSO-LINK .list-content .product-img img {
-    height: 205px;
-  }
-  .MAY-ALSO-LINK .list-content {
-    height: 390px;
-  }
-  .Nav-Corner {
-    top: 28.2%;
-  }
-
-  .header.shop .right-content .list-main {
-    justify-content: space-between;
-  }
-  .shop-list .list-content {
-    height: 650px;
-  }
-  .shop-list .list-content .product-img img {
-    height: 500px;
-  }
   .site-header .header-bottom {
     width: 100%;
     z-index: 333;
@@ -1104,7 +1144,7 @@
     top: 4px;
   }
   .header.shop .logo {
-    margin: 0;
+    margin-left: 11px;
   }
   .section {
     padding: 50px 0px;
@@ -1126,24 +1166,14 @@
   .header.shop .topbar {
     background: #8fb339;
   }
-  .header.shop .topbar .top-left {
-    text-align: center;
-  }
-  .header.shop .topbar .right-content {
-    text-align: center;
-    float: none;
-    margin-top: 8px;
-  }
-  .header.shop .list-main li {
-    border: none;
-    display: block;
-    padding: 5px 0;
-    text-align: center;
-    color: #fff;
-  }
+
   .header.shop.v3 .topbar .inner-content {
     border: none;
     padding: 0;
+  }
+  .header.shop .list-main li {
+    padding: 0px;
+    border: none;
   }
   .header.shop .list-main li a {
     color: #fff;
@@ -1158,10 +1188,7 @@
   .header.shop .list-main li i {
     color: #fff;
   }
-  .header.shop .topbar .right-content {
-    margin-top: 0px;
-    border-top: 1px solid #ffffff87;
-  }
+
   .header.shop .search-bar {
     width: 445px;
   }
@@ -1177,27 +1204,6 @@
   }
   .header.shop .nav li .new {
     display: none !important;
-  }
-  .hero-slider {
-    height: 350px;
-  }
-  .hero-slider .hero-text {
-    margin-top: 60px;
-  }
-  .hero-slider .hero-text h1 {
-    font-size: 30px;
-    margin-bottom: 0px;
-  }
-  .hero-slider .hero-text h1 span {
-    font-size: 15px;
-    margin-bottom: 0;
-  }
-  .hero-slider .hero-text p {
-    color: #333;
-    margin-bottom: 28px;
-  }
-  .hero-slider .hero-text .btn {
-    padding: 10px 25px;
   }
 
   .product-area .nav-tabs .nav-item {
@@ -1324,7 +1330,7 @@
     margin-right: 5px;
     display: inline-block;
     margin: 0;
-
+    mar0-t: mar;
     margin-top: 4px;
     width: 100%;
     display: block;
@@ -1512,32 +1518,5 @@
   .quickview-content h3 {
     font-size: 15px;
     margin: 10px 0 10px;
-  }
-}
-
-@media only screen and (max-width: 320px) {
-  .header.shop .list-main li {
-    font-size: 11px;
-  }
-  .Nav-Corner {
-    top: 27.2%;
-  }
-  .related-products-item .list-content {
-    height: 500 px;
-  }
-  .MAY-ALSO-LINK .list-content .product-img img {
-    height: 160px;
-  }
-  .MAY-ALSO-LINK .list-content {
-    height: 375px;
-  }
-  .LASR-SEEN .card img {
-    height: 90px;
-  }
-  .LASR-SEEN .col-xl-1.col-md-2.col-3 {
-    padding: 4px;
-  }
-  .header.shop .logo {
-    width: 16%;
   }
 }
