@@ -42,7 +42,8 @@
   </head>
 
   <body class="js">
-    <div class="preloader" style="display: none">
+    <!-- Preloader -->
+    <div class="preloader">
       <div class="preloader-inner">
         <div class="preloader-icon">
           <span></span>
@@ -50,6 +51,7 @@
         </div>
       </div>
     </div>
+    <!-- End Preloader -->
 
     <!-- Start Nav-Corner -->
     <div class="Nav-Corner active">
@@ -83,44 +85,27 @@
       <div class="topbar">
         <div class="container">
           <div class="row">
-            <div class="col-lg-5 col-md-12 col-12">
+            <div class="col-lg-6 col-md-12 col-12">
               <!-- Top Left -->
-              <div class="top-left m-0">
+              <div class="top-left">
                 <ul class="list-main">
-                  <li>WHATEVER YOU'VE GOT IN MIND - WE'VE GOT INSIDE</li>
+                  <li><i class="ti-headphone-alt"></i> +060 (800) 801-582</li>
+                  <li><i class="ti-email"></i> support@shophub.com</li>
                 </ul>
               </div>
               <!--/ End Top Left -->
             </div>
-            <div class="col-lg-7 col-md-12 col-12">
+            <div class="col-lg-6 col-md-12 col-12">
               <!-- Top Right -->
               <div class="right-content">
                 <ul class="list-main">
+                  <li><i class="ti-location-pin"></i> Store location</li>
                   <li>
-                    <i class="fa fab fa-google-play" aria-hidden="true"></i>
-                    <a href="#">GOOGLE PLAY </a>
+                    <i class="ti-alarm-clock"></i> <a href="#">Daily deal</a>
                   </li>
+                  <li><i class="ti-user"></i> <a href="#">My account</a></li>
                   <li>
-                    <i class="fab fa-app-store-ios"></i>
-                    <a href="#"> APP STORE</a>
-                  </li>
-
-                  <li class="Language">
-                    <select
-                      class="form-select"
-                      aria-label="Default select example"
-                    >
-                      <option value="1">(ENG)</option>
-                      <option value="2">(RU)</option>
-                      <option value="3">(FR)</option>
-                      <option value="4">(ES)</option>
-                    </select>
-                  </li>
-                  <li>
-                    <select name="State" id="State">
-                      <option value="USD">(USD)</option>
-                      <option value="EUR">(EUR)</option>
-                    </select>
+                    <i class="ti-power-off"></i><a href="login.html#">Login</a>
                   </li>
                 </ul>
               </div>
@@ -133,7 +118,7 @@
       <div class="middle-inner">
         <div class="container">
           <div class="row">
-            <div class="col-lg-2 col-md-12">
+            <div class="col-lg-2 col-md-2 col-12">
               <!-- Logo -->
               <div class="logo">
                 <a href="index.html"
@@ -169,8 +154,9 @@
                 <div class="search-bar">
                   <select>
                     <option selected="selected">All Category</option>
-                    <option>Product</option>
-                    <option>Supplier</option>
+                    <option>watch</option>
+                    <option>mobile</option>
+                    <option>kid’s item</option>
                   </select>
                   <form>
                     <input
@@ -186,26 +172,15 @@
             <div class="col-lg-2 col-md-3 col-12">
               <div class="right-bar">
                 <!-- Search Form -->
-                <div class="sinlge-bar sinlge-bar1">
+                <div class="sinlge-bar">
                   <a href="#" class="single-icon"
-                    ><i class="fa fa-heart-o" aria-hidden="true"></i
+                    ><i class="fa-regular fa-heart"></i
                   ></a>
-
-                  <div class="shopping-item">
-                    <div class="dropdown-cart-header">
-                      <a href="#"> cart</a>
-                    </div>
-                  </div>
                 </div>
-                <div class="sinlge-bar sinlge-bar2">
-                  <a href="login.html" class="single-icon"
-                    ><i class="fa fa-user-circle-o" aria-hidden="true"></i
+                <div class="sinlge-bar">
+                  <a href="#" class="single-icon"
+                    ><i class="fa-solid fa-circle-user"></i
                   ></a>
-                  <div class="shopping-item">
-                    <div class="dropdown-cart-header">
-                      <a href="#"> Login</a>
-                    </div>
-                  </div>
                 </div>
                 <div class="sinlge-bar shopping">
                   <a href="#" class="single-icon"
@@ -223,9 +198,7 @@
                         <a href="#" class="remove" title="Remove this item"
                           ><i class="fa fa-remove"></i
                         ></a>
-                        <a class="cart-img" href="#"
-                          ><img src="images/products/women-1.jpg" alt="#"
-                        /></a>
+                        <a class="cart-img" href="#"><img src="" alt="#" /></a>
                         <h4><a href="#">Woman Ring</a></h4>
                         <p class="quantity">
                           1x - <span class="amount">$99.00</span>
@@ -235,9 +208,7 @@
                         <a href="#" class="remove" title="Remove this item"
                           ><i class="fa fa-remove"></i
                         ></a>
-                        <a class="cart-img" href="#"
-                          ><img src="images/products/women-3.jpg" alt="#"
-                        /></a>
+                        <a class="cart-img" href="#"><img src="" alt="#" /></a>
                         <h4><a href="#">Woman Necklace</a></h4>
                         <p class="quantity">
                           1x - <span class="amount">$35.00</span>
@@ -260,663 +231,11 @@
         </div>
       </div>
       <!-- Header Inner -->
-
       <div class="header-inner">
         <div class="container">
           <div class="cat-nav-head">
             <div class="row">
-              <div class="col-lg-3">
-                <div class="all-category">
-                  <h3 class="cat-heading">
-                    <i class="fa fa-bars" aria-hidden="true"></i>CATEGORIES
-                  </h3>
-                  <ul class="main-category">
-                    <!-- sub-category -->
-                    <li>
-                      <a href="#"
-                        >WOMEN'S CLOTHING
-                        <i class="fa fa-angle-right" aria-hidden="true"></i
-                      ></a>
-                      <ul class="sub-category">
-                        <div class="row p-0 m-0">
-                          <div class="col-sm-4 align-items-center">
-                            <h6>CATEGORIES</h6>
-
-                            <a href="#"
-                              >WOMEN'S COLTHING
-                              <i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i>
-                            </a>
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >MEN'S COLTHING</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >PHONES & ACCESSORIES</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >JEWELRY & WATCHES</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >BAGS & SHOES</a
-                            >
-                          </div>
-
-                          <div class="col-sm-4">
-                            <h6>CATEGORIES</h6>
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >WOMEN'S COLTHING</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >MEN'S COLTHING</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >PHONES & ACCESSORIES</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >JEWELRY & WATCHES</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >BAGS & SHOES</a
-                            >
-                          </div>
-
-                          <div class="col-sm-4">
-                            <h6>CATEGORIES</h6>
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >WOMEN'S COLTHING</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >MEN'S COLTHING</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >PHONES & ACCESSORIES</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >JEWELRY & WATCHES</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >BAGS & SHOES</a
-                            >
-                          </div>
-                        </div>
-
-                        <div class="row p-0 m-0">
-                          <div class="col-sm-12 pb-2">
-                            <hr />
-                            <div class="img">
-                              <img
-                                src="images/banner05.jpg"
-                                alt=""
-                                style="width: 100%"
-                              />
-                              <div>
-                                <h3 class="pt-5">NEW COLLECTION</h3>
-                                <p>HOTDEAL</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </ul>
-                    </li>
-
-                    <li><a href="#">MEN'S CLOTHING</a></li>
-                    <!-- sub-PHONES -->
-                    <li>
-                      <a href="#"
-                        >PHONES & ACCESSORIES
-                        <i class="fa fa-angle-right" aria-hidden="true"></i
-                      ></a>
-                      <ul class="sub-PHONES">
-                        <div class="row p-0 pt-3 m-0">
-                          <div class="col-sm-4 align-items-center">
-                            <h6>CATEGORIES</h6>
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >WOMEN'S COLTHING</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >MEN'S COLTHING</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >PHONES & ACCESSORIES</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >JEWELRY & WATCHES</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >BAGS & SHOES</a
-                            >
-                            <hr />
-                          </div>
-
-                          <div class="col-sm-4">
-                            <h6>CATEGORIES</h6>
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >WOMEN'S COLTHING</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >MEN'S COLTHING</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >PHONES & ACCESSORIES</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >JEWELRY & WATCHES</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >BAGS & SHOES</a
-                            >
-                            <hr />
-                          </div>
-
-                          <!-- img -->
-                          <div class="col-sm-4">
-                            <div class="img">
-                              <img src="images/banner04.jpg" alt="" />
-                              <div class="text-img mb-4">
-                                <h3>NEW</h3>
-                                <h3>COLTHING</h3>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="col-sm-4">
-                            <h6>CATEGORIES</h6>
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >WOMEN'S COLTHING</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >MEN'S COLTHING</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >PHONES & ACCESSORIES</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >JEWELRY & WATCHES</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >BAGS & SHOES</a
-                            >
-                          </div>
-                          <div class="col-sm-4">
-                            <h6>CATEGORIES</h6>
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >WOMEN'S COLTHING</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >MEN'S COLTHING</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >PHONES & ACCESSORIES</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >JEWELRY & WATCHES</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >BAGS & SHOES</a
-                            >
-                          </div>
-                        </div>
-                      </ul>
-                    </li>
-
-                    <li><a href="#">COMPUTER & OFFICE</a></li>
-                    <li><a href="#">CONSUMER ELECTRONICS</a></li>
-
-                    <li>
-                      <a href="#"
-                        >JEWELRY & WATCHES
-                        <i class="fa fa-angle-right" aria-hidden="true"></i
-                      ></a>
-                      <ul class="sub-JEWELRY">
-                        <div class="row p-0 pt-3 m-0">
-                          <div class="col-sm-4 align-items-center">
-                            <h6>CATEGORIES</h6>
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >WOMEN'S COLTHING</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >MEN'S COLTHING</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >PHONES & ACCESSORIES</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >JEWELRY & WATCHES</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >BAGS & SHOES</a
-                            >
-                            <hr />
-                          </div>
-
-                          <div class="col-sm-4">
-                            <h6>CATEGORIES</h6>
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >WOMEN'S COLTHING</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >MEN'S COLTHING</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >PHONES & ACCESSORIES</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >JEWELRY & WATCHES</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >BAGS & SHOES</a
-                            >
-                            <hr />
-                          </div>
-
-                          <div class="col-sm-4 align-items-center">
-                            <h6>CATEGORIES</h6>
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >WOMEN'S COLTHING</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >MEN'S COLTHING</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >PHONES & ACCESSORIES</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >JEWELRY & WATCHES</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >BAGS & SHOES</a
-                            >
-                            <hr />
-                          </div>
-
-                          <div class="col-sm-4">
-                            <h6>CATEGORIES</h6>
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >WOMEN'S COLTHING</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >MEN'S COLTHING</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >PHONES & ACCESSORIES</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >JEWELRY & WATCHES</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >BAGS & SHOES</a
-                            >
-                          </div>
-
-                          <div class="col-sm-4">
-                            <h6>CATEGORIES</h6>
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >WOMEN'S COLTHING</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >MEN'S COLTHING</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >PHONES & ACCESSORIES</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >JEWELRY & WATCHES</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >BAGS & SHOES</a
-                            >
-                          </div>
-
-                          <div class="col-sm-4">
-                            <h6>CATEGORIES</h6>
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >WOMEN'S COLTHING</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >MEN'S COLTHING</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >PHONES & ACCESSORIES</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >JEWELRY & WATCHES</a
-                            >
-
-                            <a href="#"
-                              ><i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                              >BAGS & SHOES</a
-                            >
-                          </div>
-                        </div>
-                      </ul>
-                    </li>
-
-                    <li><a href="#">BAGS & SHOES</a></li>
-                    <li><a href="#">VIEW ALL</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-lg-9 col-12">
+              <div class="col-12">
                 <div class="menu-area">
                   <!-- Main Menu -->
                   <nav class="navbar navbar-expand-lg">
@@ -1961,7 +1280,7 @@
                   </div>
                   <div class="product-img overlay">
                     <img
-                      src="images/Advertisement/2.jpg"
+                      src="images/Coming soon/pexels-taryn-elliott-5405623.jpg"
                       class="card-img-top"
                       alt="..."
                     />
@@ -1998,7 +1317,7 @@
                 <div class="card list-content">
                   <div class="product-img overlay">
                     <img
-                      src="images/Coming soon/pexels-konstantin-mishchenko-1926769.jpg"
+                      src="images/Coming soon/pexels-taryn-elliott-5405623.jpg"
                       class="card-img-top"
                       alt="..."
                     />
@@ -2080,7 +1399,7 @@
                   </div>
                   <div class="product-img overlay">
                     <img
-                      src="images/women fashion/jon-ly-Xn7GvimQrk8-unsplash (1).jpg"
+                      src="images/Coming soon/pexels-taryn-elliott-5405623.jpg"
                       class="card-img-top"
                       alt="..."
                     />
@@ -2117,48 +1436,7 @@
                 <div class="card list-content">
                   <div class="product-img overlay">
                     <img
-                      src="images/women fashion/the-aw-creative-digital-marketing-vj-_S20w04o-unsplash (1).jpg"
-                      class="card-img-top"
-                      alt="..."
-                    />
-
-                    <a href="#" class="btn">Go To Shop</a>
-                  </div>
-
-                  <div class="card-body">
-                    <div class="card-title">
-                      <h5 class="">32.50 EGP</h5>
-                      <p class="gnral"><del>45.00 EGP</del></p>
-                    </div>
-                    <p class="card-text">
-                      <b> Product Name</b>
-                      <i class="ti-star gold"></i>
-                      <i class="ti-star gold"></i>
-                      <i class="ti-star gold"></i>
-                      <i class="ti-star gold"></i>
-                    </p>
-                    <div class="footer-card">
-                      <a href=""><i class="fa-solid fa-share-nodes"></i></a>
-                      <a href=""><i class="fa-solid fa-heart"></i></a>
-                      <a href="#" class="btn"
-                        ><i class="fa-solid fa-cart-shopping"></i> ADD To Cart
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- end list-content -->
-
-              <!-- list-content -->
-              <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="card list-content">
-                  <div class="banner">
-                    <h6 style="background-color: #424646">NEW</h6>
-                    <h6 style="background-color: #8fb339">-20%</h6>
-                  </div>
-                  <div class="product-img overlay">
-                    <img
-                      src="images/women fashion/mike-von-V4cl7_0N2mc-unsplash.jpg"
+                      src="images/Coming soon/pexels-taryn-elliott-5405623.jpg"
                       class="card-img-top"
                       alt="..."
                     />
@@ -2199,44 +1477,7 @@
                   </div>
                   <div class="product-img overlay">
                     <img
-                      src="images/women fashion/jonathan-borba-hj4eKgWDfys-unsplash.jpg"
-                      class="card-img-top"
-                      alt="..."
-                    />
-
-                    <a href="#" class="btn">Go To Shop</a>
-                  </div>
-
-                  <div class="card-body">
-                    <div class="card-title">
-                      <h5 class="">32.50 EGP</h5>
-                      <p class="gnral"><del>45.00 EGP</del></p>
-                    </div>
-                    <p class="card-text">
-                      <b> Product Name</b>
-                      <i class="ti-star gold"></i>
-                      <i class="ti-star gold"></i>
-                      <i class="ti-star gold"></i>
-                      <i class="ti-star gold"></i>
-                    </p>
-                    <div class="footer-card">
-                      <a href=""><i class="fa-solid fa-share-nodes"></i></a>
-                      <a href=""><i class="fa-solid fa-heart"></i></a>
-                      <a href="#" class="btn"
-                        ><i class="fa-solid fa-cart-shopping"></i> ADD To Cart
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- end list-content -->
-
-              <!-- list-content -->
-              <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="card list-content">
-                  <div class="product-img overlay">
-                    <img
-                      src="images/women fashion/laura-chouette-6UxrwcorLZU-unsplash.jpg"
+                      src="images/Coming soon/pexels-taryn-elliott-5405623.jpg"
                       class="card-img-top"
                       alt="..."
                     />
@@ -2277,7 +1518,44 @@
                   </div>
                   <div class="product-img overlay">
                     <img
-                      src="images/women fashion/jonathan-borba-XJt51hAa3z8-unsplash.jpg"
+                      src="images/Coming soon/pexels-taryn-elliott-5405623.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+
+                    <a href="#" class="btn">Go To Shop</a>
+                  </div>
+
+                  <div class="card-body">
+                    <div class="card-title">
+                      <h5 class="">32.50 EGP</h5>
+                      <p class="gnral"><del>45.00 EGP</del></p>
+                    </div>
+                    <p class="card-text">
+                      <b> Product Name</b>
+                      <i class="ti-star gold"></i>
+                      <i class="ti-star gold"></i>
+                      <i class="ti-star gold"></i>
+                      <i class="ti-star gold"></i>
+                    </p>
+                    <div class="footer-card">
+                      <a href=""><i class="fa-solid fa-share-nodes"></i></a>
+                      <a href=""><i class="fa-solid fa-heart"></i></a>
+                      <a href="#" class="btn"
+                        ><i class="fa-solid fa-cart-shopping"></i> ADD To Cart
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- end list-content -->
+
+              <!-- list-content -->
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="card list-content">
+                  <div class="product-img overlay">
+                    <img
+                      src="images/Coming soon/pexels-taryn-elliott-5405623.jpg"
                       class="card-img-top"
                       alt="..."
                     />
@@ -2318,44 +1596,7 @@
                   </div>
                   <div class="product-img overlay">
                     <img
-                      src="images/women fashion/jon-ly-Xn7GvimQrk8-unsplash (1).jpg"
-                      class="card-img-top"
-                      alt="..."
-                    />
-
-                    <a href="#" class="btn">Go To Shop</a>
-                  </div>
-
-                  <div class="card-body">
-                    <div class="card-title">
-                      <h5 class="">32.50 EGP</h5>
-                      <p class="gnral"><del>45.00 EGP</del></p>
-                    </div>
-                    <p class="card-text">
-                      <b> Product Name</b>
-                      <i class="ti-star gold"></i>
-                      <i class="ti-star gold"></i>
-                      <i class="ti-star gold"></i>
-                      <i class="ti-star gold"></i>
-                    </p>
-                    <div class="footer-card">
-                      <a href=""><i class="fa-solid fa-share-nodes"></i></a>
-                      <a href=""><i class="fa-solid fa-heart"></i></a>
-                      <a href="#" class="btn"
-                        ><i class="fa-solid fa-cart-shopping"></i> ADD To Cart
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- end list-content -->
-
-              <!-- list-content -->
-              <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="card list-content">
-                  <div class="product-img overlay">
-                    <img
-                      src="images/women fashion/the-aw-creative-digital-marketing-vj-_S20w04o-unsplash (1).jpg"
+                      src="images/Coming soon/pexels-taryn-elliott-5405623.jpg"
                       class="card-img-top"
                       alt="..."
                     />
@@ -2396,7 +1637,85 @@
                   </div>
                   <div class="product-img overlay">
                     <img
-                      src="images/women fashion/mike-von-V4cl7_0N2mc-unsplash.jpg"
+                      src="images/Coming soon/pexels-taryn-elliott-5405623.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+
+                    <a href="#" class="btn">Go To Shop</a>
+                  </div>
+
+                  <div class="card-body">
+                    <div class="card-title">
+                      <h5 class="">32.50 EGP</h5>
+                      <p class="gnral"><del>45.00 EGP</del></p>
+                    </div>
+                    <p class="card-text">
+                      <b> Product Name</b>
+                      <i class="ti-star gold"></i>
+                      <i class="ti-star gold"></i>
+                      <i class="ti-star gold"></i>
+                      <i class="ti-star gold"></i>
+                    </p>
+                    <div class="footer-card">
+                      <a href=""><i class="fa-solid fa-share-nodes"></i></a>
+                      <a href=""><i class="fa-solid fa-heart"></i></a>
+                      <a href="#" class="btn"
+                        ><i class="fa-solid fa-cart-shopping"></i> ADD To Cart
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- end list-content -->
+
+              <!-- list-content -->
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="card list-content">
+                  <div class="product-img overlay">
+                    <img
+                      src="images/Coming soon/pexels-taryn-elliott-5405623.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+
+                    <a href="#" class="btn">Go To Shop</a>
+                  </div>
+
+                  <div class="card-body">
+                    <div class="card-title">
+                      <h5 class="">32.50 EGP</h5>
+                      <p class="gnral"><del>45.00 EGP</del></p>
+                    </div>
+                    <p class="card-text">
+                      <b> Product Name</b>
+                      <i class="ti-star gold"></i>
+                      <i class="ti-star gold"></i>
+                      <i class="ti-star gold"></i>
+                      <i class="ti-star gold"></i>
+                    </p>
+                    <div class="footer-card">
+                      <a href=""><i class="fa-solid fa-share-nodes"></i></a>
+                      <a href=""><i class="fa-solid fa-heart"></i></a>
+                      <a href="#" class="btn"
+                        ><i class="fa-solid fa-cart-shopping"></i> ADD To Cart
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- end list-content -->
+
+              <!-- list-content -->
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="card list-content">
+                  <div class="banner">
+                    <h6 style="background-color: #424646">NEW</h6>
+                    <h6 style="background-color: #8fb339">-20%</h6>
+                  </div>
+                  <div class="product-img overlay">
+                    <img
+                      src="images/Coming soon/pexels-taryn-elliott-5405623.jpg"
                       class="card-img-top"
                       alt="..."
                     />
@@ -2468,35 +1787,8 @@
           <div class="products-item border p-2">
             <div class="row">
               <div class="col-lg-6">
-                <img src="images/Coming soon/man2.jpg" alt="" />
-              </div>
-
-              <div class="col-lg-6">
-                <h5>32.50 EGP</h5>
-                <p><del class="gnral">45.99 EGP</del></p>
-                <h6>Product Name</h6>
-                <br />
-                <i class="ti-star gold"></i>
-                <i class="ti-star gold"></i>
-                <i class="ti-star gold"></i>
-                <i class="ti-star"></i>
-                <i class="ti-star"></i>
-
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                <i class="fa-solid fa-heart"></i>
-                <i class="fa-solid fa-share-from-square"></i>
-                <i class="fa-solid fa-cart-shopping"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 col-12">
-          <div class="products-item border p-2">
-            <div class="row">
-              <div class="col-lg-6">
                 <img
-                  src="images/Coming soon/pexels-hiren-lad-2929570.jpg"
+                  src="images/Coming soon/pexels-taryn-elliott-5405623.jpg"
                   alt=""
                 />
               </div>
@@ -2525,7 +1817,40 @@
           <div class="products-item border p-2">
             <div class="row">
               <div class="col-lg-6">
-                <img src="images/Coming soon/man4.jpg" alt="" />
+                <img
+                  src="images/Coming soon/pexels-taryn-elliott-5405623.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="col-lg-6">
+                <h5>32.50 EGP</h5>
+                <p><del class="gnral">45.99 EGP</del></p>
+                <h6>Product Name</h6>
+                <br />
+                <i class="ti-star gold"></i>
+                <i class="ti-star gold"></i>
+                <i class="ti-star gold"></i>
+                <i class="ti-star"></i>
+                <i class="ti-star"></i>
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-share-from-square"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="products-item border p-2">
+            <div class="row">
+              <div class="col-lg-6">
+                <img
+                  src="images/Coming soon/pexels-taryn-elliott-5405623.jpg"
+                  alt=""
+                />
               </div>
 
               <div class="col-lg-6">
@@ -2584,7 +1909,7 @@
             <div class="row">
               <div class="col-lg-6">
                 <img
-                  src="images/Coming soon/pexels-konstantin-mishchenko-1926769.jpg"
+                  src="images/Coming soon/pexels-taryn-elliott-5405623.jpg"
                   alt=""
                 />
               </div>
@@ -2613,7 +1938,10 @@
           <div class="products-item border p-2">
             <div class="row">
               <div class="col-lg-6">
-                <img src="images/Coming soon/man5.jpg" alt="" />
+                <img
+                  src="images/Coming soon/pexels-taryn-elliott-5405623.jpg"
+                  alt=""
+                />
               </div>
 
               <div class="col-lg-6">
@@ -2686,173 +2014,158 @@
     <section class="container Lest-Seen">
       <h4 class="title">LEST SEEN</h4>
       <hr class="hr-title" />
-      <div class="row mt-3">
-        <div class="col-xl-1 col-md-2 col-4">
-          <div class="card">
-            <img
-              class="card-img-top"
-              src="images/Coming soon/man1.jpg"
-              alt=""
-            />
-            <div class="card-body">
-              <p class="card-text">35.50EGP</p>
-              <b>Product</b>
-            </div>
-          </div>
+      <div class="row">
+        <div class="Product">
+          <img src="images/item-name/pexels-ox.jpg" alt="" />
+          <p>50.99 EGP</p>
+          <h6>Product</h6>
         </div>
 
-        <div class="col-xl-1 col-md-2 col-4">
-          <div class="card">
-            <img
-              class="card-img-top"
-              src="images/Coming soon/man2.jpg"
-              alt=""
-            />
-            <div class="card-body">
-              <p class="card-text">35.50EGP</p>
-              <b>Product</b>
-            </div>
-          </div>
+        <div class="Product">
+          <img src="images/item-name/pexels-ox.jpg" alt="" />
+          <p>50.99 EGP</p>
+          <h6>Product</h6>
         </div>
 
-        <div class="col-xl-1 col-md-2 col-4">
-          <div class="card">
-            <img
-              class="card-img-top"
-              src="images/Coming soon/man3.jpg"
-              alt=""
-            />
-            <div class="card-body">
-              <p class="card-text">35.50EGP</p>
-              <b>Product</b>
-            </div>
-          </div>
+        <div class="Product">
+          <img src="images/item-name/pexels-ox.jpg" alt="" />
+
+          <p>50.99 EGP</p>
+          <h6>Product</h6>
         </div>
 
-        <div class="col-xl-1 col-md-2 col-4">
-          <div class="card">
-            <img
-              class="card-img-top"
-              src="images/Coming soon/man4.jpg"
-              alt=""
-            />
-            <div class="card-body">
-              <p class="card-text">35.50EGP</p>
-              <b>Product</b>
-            </div>
-          </div>
+        <div class="Product">
+          <img src="images/item-name/pexels-ox.jpg" alt="" />
+
+          <p>50.99 EGP</p>
+          <h6>Product</h6>
         </div>
 
-        <div class="col-xl-1 col-md-2 col-4">
-          <div class="card">
-            <img
-              class="card-img-top"
-              src="images/Coming soon/man5.jpg"
-              alt=""
-            />
-            <div class="card-body">
-              <p class="card-text">35.50EGP</p>
-              <b>Product</b>
-            </div>
-          </div>
+        <div class="Product">
+          <img src="images/item-name/pexels-ox.jpg" alt="" />
+
+          <p>50.99 EGP</p>
+          <h6>Product</h6>
+        </div>
+        <div class="Product">
+          <img src="images/item-name/pexels-ox.jpg" alt="" />
+
+          <p>50.99 EGP</p>
+          <h6>Product</h6>
+        </div>
+        <div class="Product">
+          <img src="images/item-name/pexels-ox.jpg" alt="" />
+
+          <p>50.99 EGP</p>
+          <h6>Product</h6>
+        </div>
+        <div class="Product">
+          <img src="images/item-name/pexels-ox.jpg" alt="" />
+
+          <p>50.99 EGP</p>
+          <h6>Product</h6>
+        </div>
+        <div class="Product">
+          <img src="images/item-name/pexels-ox.jpg" alt="" />
+
+          <p>50.99 EGP</p>
+          <h6>Product</h6>
+        </div>
+        <div class="Product">
+          <img src="images/item-name/pexels-ox.jpg" alt="" />
+
+          <p>50.99 EGP</p>
+          <h6>Product</h6>
+        </div>
+        <div class="Product">
+          <img src="images/item-name/pexels-ox.jpg" alt="" />
+
+          <p>50.99 EGP</p>
+          <h6>Product</h6>
+        </div>
+        <div class="Product">
+          <img src="images/item-name/pexels-ox.jpg" alt="" />
+
+          <p>50.99 EGP</p>
+          <h6>Product</h6>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="Product">
+          <img src="images/item-name/pexels-ox.jpg" alt="" />
+
+          <p>50.99 EGP</p>
+          <h6>Product</h6>
         </div>
 
-        <div class="col-xl-1 col-md-2 col-4">
-          <div class="card">
-            <img
-              class="card-img-top"
-              src="images/Coming soon/pexels-bogdan-glisik-1661420.jpg"
-              alt=""
-            />
-            <div class="card-body">
-              <p class="card-text">35.50EGP</p>
-              <b>Product</b>
-            </div>
-          </div>
+        <div class="Product">
+          <img src="images/item-name/pexels-ox.jpg" alt="" />
+
+          <p>50.99 EGP</p>
+          <h6>Product</h6>
         </div>
 
-        <div class="col-xl-1 col-md-2 col-4">
-          <div class="card">
-            <img
-              class="card-img-top"
-              src="images/Coming soon/pexels-hiren-lad-2929570.jpg"
-              alt=""
-            />
-            <div class="card-body">
-              <p class="card-text">35.50EGP</p>
-              <b>Product</b>
-            </div>
-          </div>
+        <div class="Product">
+          <img src="images/item-name/pexels-ox.jpg" alt="" />
+
+          <p>50.99 EGP</p>
+          <h6>Product</h6>
         </div>
 
-        <div class="col-xl-1 col-md-2 col-4">
-          <div class="card">
-            <img
-              class="card-img-top"
-              src="images/Coming soon/pexels-konstantin-mishchenko-1926769.jpg"
-              alt=""
-            />
-            <div class="card-body">
-              <p class="card-text">35.50EGP</p>
-              <b>Product</b>
-            </div>
-          </div>
+        <div class="Product">
+          <img src="images/item-name/pexels-ox.jpg" alt="" />
+
+          <p>50.99 EGP</p>
+          <h6>Product</h6>
         </div>
 
-        <div class="col-xl-1 col-md-2 col-4">
-          <div class="card">
-            <img
-              class="card-img-top"
-              src="images/Coming soon/pexels-letícia-higa-9094936.jpg"
-              alt=""
-            />
-            <div class="card-body">
-              <p class="card-text">35.50EGP</p>
-              <b>Product</b>
-            </div>
-          </div>
-        </div>
+        <div class="Product">
+          <img src="images/item-name/pexels-ox.jpg" alt="" />
 
-        <div class="col-xl-1 col-md-2 col-4">
-          <div class="card">
-            <img
-              class="card-img-top"
-              src="images/Coming soon/pexels-mnz-1639729.jpg"
-              alt=""
-            />
-            <div class="card-body">
-              <p class="card-text">35.50EGP</p>
-              <b>Product</b>
-            </div>
-          </div>
+          <p>50.99 EGP</p>
+          <h6>Product</h6>
         </div>
+        <div class="Product">
+          <img src="images/item-name/pexels-ox.jpg" alt="" />
 
-        <div class="col-xl-1 col-md-2 col-4">
-          <div class="card">
-            <img
-              class="card-img-top"
-              src="images/Coming soon/pexels-rachel-claire-8112997.jpg"
-              alt=""
-            />
-            <div class="card-body">
-              <p class="card-text">35.50EGP</p>
-              <b>Product</b>
-            </div>
-          </div>
+          <p>50.99 EGP</p>
+          <h6>Product</h6>
         </div>
+        <div class="Product">
+          <img src="images/item-name/pexels-ox.jpg" alt="" />
 
-        <div class="col-xl-1 col-md-2 col-4">
-          <div class="card">
-            <img
-              class="card-img-top"
-              src="images/Coming soon/pexels-rômulo-carolino-2914286.jpg"
-              alt=""
-            />
-            <div class="card-body">
-              <p class="card-text">35.50EGP</p>
-              <b>Product</b>
-            </div>
-          </div>
+          <p>50.99 EGP</p>
+          <h6>Product</h6>
+        </div>
+        <div class="Product">
+          <img src="images/item-name/pexels-ox.jpg" alt="" />
+          <p>50.99 EGP</p>
+          <h6>Product</h6>
+        </div>
+        <div class="Product">
+          <img src="images/item-name/pexels-ox.jpg" alt="" />
+
+          <p>50.99 EGP</p>
+          <h6>Product</h6>
+        </div>
+        <div class="Product">
+          <img src="images/item-name/pexels-ox.jpg" alt="" />
+
+          <p>50.99 EGP</p>
+          <h6>Product</h6>
+        </div>
+        <div class="Product">
+          <img src="images/item-name/pexels-ox.jpg" alt="" />
+
+          <p>50.99 EGP</p>
+          <h6>Product</h6>
+        </div>
+        <div class="Product">
+          <img src="images/item-name/pexels-ox.jpg" alt="" />
+
+          <p>50.99 EGP</p>
+          <h6>Product</h6>
         </div>
       </div>
     </section>
@@ -2870,7 +2183,7 @@
                   first purchase
                 </p>
                 <form
-                  action="https://wpthemesgrid.com/themes/eshop/mail/mail.php"
+                  action="https"
                   method="get"
                   target="_blank"
                   class="newsletter-inner"
