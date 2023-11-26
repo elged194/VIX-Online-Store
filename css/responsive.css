@@ -3,28 +3,41 @@
 ========================================*/
 /* Laptop L */
 @media only screen and (max-width: 1440px) {
-}
-/* Laptop  */
-/* @media only screen and (max-width: 1024px) {
   .Nav-Corner {
-    right: -97px;
-    top: 28%;
+    top: 18.2%;
   }
   .header .nav .MEN .dropdown {
-    width: 760px;
-    position: absolute;
-    top: 100%;
-    left: -294px;
-    max-height: 480px;
-    overflow-x: scroll;
+    left: -423px;
   }
+}
+/* Laptop  */
+@media only screen and (max-width: 1024px) {
   .header .nav .WOMEN .dropdown {
-    width: 761px;
-    max-height: 480px;
-    overflow-x: scroll;
-    left: -184px;
+    width: 757px;
+    left: -174px;
   }
-} */
+  .header .nav .MEN .dropdown {
+    width: 935px;
+    left: -458px;
+  }
+  .header.shop .sub-PHONES {
+    width: 740px;
+    left: 211px;
+    top: -15px;
+  }
+  .header.shop .sub-category {
+    width: 750px;
+    left: 211px;
+  }
+  .header.shop .sub-JEWELRY {
+    width: 750px;
+    left: 211px;
+    top: -233px;
+  }
+  .Nav-Corner {
+    top: 19.6%;
+  }
+}
 /* Tablet Screen */
 @media only screen and (max-width: 768px) and (max-width: 991px) {
   .section {
@@ -56,14 +69,12 @@
   }
 
   .SAVED-ITEM .list-content .product-img img {
-    height: auto;
+    height: 235px;
   }
   .MAY-ALSO-LINK .list-content .product-img img {
     height: auto;
   }
-  .SAVED-ITEM .list-content {
-    height: auto;
-  }
+
   .breadcrumbs {
     padding: 20px 0;
   }
@@ -176,109 +187,11 @@
     margin-top: 22px;
     font-size: 12px;
   }
-  /* .hero-area3 .big-content {
-    height: 400px;
-    margin-top: 16px;
-  }
-  .hero-area3 .big-content .title {
-    font-size: 25px;
-    margin-bottom: 12px;
-    line-height: 35px;
-  }
-  .hero-area3 .big-content .button {
-    margin-top: 30px;
-    display: block;
-  }
-  .hero-area3 .big-content .button .btn {
-    color: #fff;
-    padding: 10px 24px;
-  }
-  .hero-area3 .small-content {
-    margin-top: 15px;
-  }
-  .hero-area3 .small-content.first {
-    width: 49%;
-    display: inline-block;
-    margin-right: 10px;
-  }
-  .hero-area3 .small-content.secound {
-    width: 49%;
-    display: inline-block;
-    float: right;
-  } */
-  /* .hero-area4 .big-content {
-    height: 400px;
-    margin-top: 20px;
-  }
-  .hero-area4 .big-content .inner {
-    padding: 0;
-    padding-right: 30px;
-  }
-  .hero-area4 .big-content .title {
-    font-size: 25px;
-    margin-bottom: 20px;
-    line-height: 30px;
-  }
-  .hero-area4 .big-content .des {
-    font-size: 13px;
-  }
-  .hero-area4 .big-content .button {
-    margin-top: 30px;
-  }
-  .hero-area4 .big-content .button .btn {
-    padding: 10px 20px;
-  } */
-  .small-banner {
-    padding: 18px 0;
-  }
-  .small-banner .single-banner {
-    margin-bottom: 18px;
-  }
-  .modal-dialog .quickview-slider-active {
-    width: 720px;
-  }
-  .quickview-content {
-    padding: 40px;
-  }
-  .quickview-content .size .title {
-    margin-top: 16px;
-  }
-  /* .midium-banner .single-banner .content {
-    padding: 35px;
-  }
-  .midium-banner .single-banner h3 {
-    font-size: 20px;
-    line-height: 24px;
-  }
-  .midium-banner .single-banner a {
-    padding: 6px 20px;
-    margin-top: 15px;
-  } */
-  /* .most-popular .single-product {
-    margin: 20px 15px 0 15px;
-  } */
+
   .shop-home-list .shop-section-title {
     margin-top: 20px;
   }
-  /* .cown-down {
-    height: auto;
-  }
-  .cown-down .padding-left {
-    padding: 0;
-  }
-  .cown-down .padding-right {
-    padding: 0;
-  }
-  .cown-down .content {
-    padding: 50px 110px;
-  }
-  .cown-down .content .heading-block {
-    padding: 0;
-    position: relative;
-  } */
-  /* .shop-blog .shop-single-blog {
-    margin-bottom: 30px;
-  } */
+
   .shop-services {
     padding: 50px 0;
   }
@@ -288,12 +201,7 @@
   .shop-newsletter .newsletter-inner input {
     width: 380px;
   }
-  /* .shop-blog.grid .shop-single-blog {
-    margin-top: 0px;
-  } */
-  /* .main-sidebar .side-tags .tag {
-    margin-top: 30px;
-  } */
+
   .shopping-cart .table td {
     padding: 20px;
   }
@@ -372,6 +280,20 @@
     margin: 0px;
     padding: 5px 0px;
   }
+  .header.shop .right-content .list-main .nice-select {
+    width: 100px;
+  }
+  .header.shop .right-content .list-main .nice-select .list {
+    top: 156%;
+  }
+
+  .Nav-Corner {
+    top: 29.6%;
+  }
+  .header .search-form {
+    top: 61px;
+    left: -189px;
+  }
   .header.shop .right-content,
   .header.shop .right-content .list-main {
     justify-content: space-evenly;
@@ -384,7 +306,11 @@
   .product-large {
     height: auto;
   }
-
+  .product-name .col-lg-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   /* INDEX -Advertisement */
   .Advertisement .img2 img {
     height: auto;
@@ -408,7 +334,7 @@
     padding: 90px 0 90px;
   }
   .shop-list .list-content .product-img img {
-    height: 400px;
+    height: 451px;
   }
   .related-products-item .list-content .product-img img {
     height: 400px;
@@ -658,21 +584,6 @@
   .product-area .nav-tabs .nav-item {
     margin-bottom: 10px;
   }
-  .small-banner {
-    padding: 18px 0;
-  }
-  .small-banner .single-banner {
-    margin-bottom: 18px;
-  }
-  .modal-dialog .quickview-slider-active {
-    width: 720px;
-  }
-  .quickview-content {
-    padding: 40px;
-  }
-  .quickview-content .size .title {
-    margin-top: 16px;
-  }
 
   .shop-home-list .shop-section-title {
     margin-top: 20px;
@@ -820,7 +731,7 @@
   }
   .shopping-cart .table td {
     padding: 0.75rem;
-    vertical-align: top;
+    /* vertical-align: top; */
     border-top: 1px solid #e9ecef;
     display: block;
     height: auto;
@@ -899,7 +810,7 @@
   }
   .shop-list .list-content {
     margin-top: 30px;
-    height: 550px;
+    height: 602px;
   }
   .shop-list .list-content .btn {
     height: auto;
@@ -951,44 +862,6 @@
   .footer .single-footer {
     padding: 20px 0;
   }
-  .modal-dialog .quickview-slider-active {
-    display: none;
-  }
-  .modal-dialog .modal-content .modal-header {
-    right: 15px;
-    top: 12px;
-  }
-  .quickview-content {
-    padding: 30px;
-  }
-  .quickview-content h2 {
-    font-size: 22px;
-  }
-  .quickview-content h3 {
-    font-size: 17px;
-    margin: 10px 0 10px;
-  }
-  .quickview-content .quickview-peragraph p {
-    line-height: 22px;
-  }
-  .quickview-content .size .title {
-    margin-top: 10px;
-  }
-  .modal-dialog .modal-content .modal-header .close {
-    font-size: 9px;
-  }
-  .quickview-content .quantity .input-group {
-    margin-bottom: 10px;
-  }
-  .quickview-content .add-to-cart .btn {
-    height: 42px;
-    padding: 0 25px;
-    line-height: 42px;
-    font-size: 12px;
-  }
-  .quickview-content .add-to-cart .btn.min {
-    line-height: 41px;
-  }
 }
 /* Mobile Screen */
 @media only screen and (max-width: 425px) {
@@ -999,6 +872,17 @@
   /* slider */
   .hero-slider .carousel img {
     height: auto;
+  }
+  .hero-slider button:not(:disabled) {
+    width: 60px;
+  }
+  .carousel-indicators {
+    margin-bottom: 0rem;
+  }
+
+  .header .search-form {
+    left: -185px;
+    top: 40px;
   }
   /* header */
   .header.shop .right-content {
@@ -1020,6 +904,18 @@
   .Nav-Corner {
     top: 26.2%;
     right: -100px;
+  }
+  .small-banner .col-6 {
+    padding: 20px 10px;
+  }
+  .shop-list .list-content {
+    height: 710px;
+  }
+  .shop-list .list-content .product-img img {
+    height: auto;
+  }
+  .SAVED-ITEM .list-content .product-img img {
+    height: 215px;
   }
 
   .site-header.sticky .header-bottom {
@@ -1177,6 +1073,7 @@
   }
   .header.shop .list-main li a {
     color: #fff;
+    font-size: 11px;
   }
   .header.shop .list-main li a:hover {
     color: #fff;
@@ -1187,6 +1084,7 @@
   }
   .header.shop .list-main li i {
     color: #fff;
+    margin: 0;
   }
 
   .header.shop .search-bar {
@@ -1208,25 +1106,6 @@
 
   .product-area .nav-tabs .nav-item {
     margin-bottom: 10px;
-  }
-  .small-banner {
-    padding: 18px 0;
-  }
-  .small-banner .single-banner {
-    margin-bottom: 18px;
-  }
-  .small-banner .single-banner p {
-    font-size: 13px;
-  }
-  .small-banner .single-banner .content {
-    padding: 12px 10px 10px 35px;
-  }
-  .small-banner .single-banner h3 {
-    font-size: 17px;
-  }
-  .small-banner .single-banner a {
-    margin-top: 15px;
-    font-size: 11px;
   }
 
   .shop-home-list {
@@ -1330,7 +1209,6 @@
     margin-right: 5px;
     display: inline-block;
     margin: 0;
-    mar0-t: mar;
     margin-top: 4px;
     width: 100%;
     display: block;
@@ -1461,62 +1339,35 @@
   .footer .single-footer {
     padding: 12px 0;
   }
-  .modal-dialog .quickview-slider-active {
+}
+@media only screen and (max-width: 375px) {
+}
+@media only screen and (max-width: 320px) {
+  .preloader-inner {
+    left: 43%;
+  }
+  .Nav-Corner {
+    top: 28.2%;
+  }
+  .header.shop .list-main li a {
     display: none;
   }
-  .modal-dialog .modal-content .modal-header {
-    right: 15px;
-    top: 12px;
+  .header.shop .right-content .list-main .nice-select {
+    width: 70px;
   }
-  .quickview-content {
-    padding: 30px;
+  .SAVED-ITEM .list-content .product-img img {
+    height: 185px;
   }
-  .quickview-content h2 {
-    font-size: 22px;
+  .SAVED-ITEM .col-6 {
+    padding: 5px;
   }
-  .quickview-content h3 {
-    font-size: 17px;
-    margin: 10px 0 10px;
+  .SAVED-ITEM .list-content {
+    height: 324px;
   }
-  .quickview-content .quickview-peragraph p {
-    line-height: 22px;
-  }
-  .quickview-content .size .title {
-    margin-top: 10px;
-  }
-  .modal-dialog .modal-content .modal-header .close {
+  .SAVED-ITEM .list-content .card-body .card-title {
     font-size: 9px;
   }
-  .quickview-content .quantity .input-group {
-    margin-bottom: 10px;
-  }
-  .quickview-content .add-to-cart .btn {
-    height: 42px;
-    padding: 0 25px;
-    line-height: 42px;
-    font-size: 12px;
-    margin-bottom: 8px;
-  }
-  .quickview-content .add-to-cart .btn.min {
-    line-height: 41px;
-  }
-  .quickview-content .nice-select {
-    height: 40px;
-  }
-  .quickview-content .quantity .input-number {
-    height: 40px;
-  }
-  .quickview-content h2 {
-    font-size: 18px;
-    font-weight: 500;
-  }
-  .quickview-content .quickview-peragraph p {
-    line-height: 21px;
+  .SAVED-ITEM .list-content .card-body .card-title h6 {
     font-size: 13px;
-    font-weight: 400;
-  }
-  .quickview-content h3 {
-    font-size: 15px;
-    margin: 10px 0 10px;
   }
 }
