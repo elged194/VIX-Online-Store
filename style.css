@@ -80,6 +80,7 @@ body {
   padding: 13px 32px;
   border-radius: 0px;
   text-transform: uppercase;
+  border: none;
 }
 .btn:hover {
   color: #fff;
@@ -134,7 +135,7 @@ body {
 .preloader-inner {
   position: absolute;
   top: 45%;
-  left: 43%;
+  left: 47%;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -783,6 +784,7 @@ body {
 }
 .header.shop {
   background: #fff;
+  /* overflow-x: hidden; */
 }
 
 /* top-contact */
@@ -985,7 +987,7 @@ body {
 }
 .header.shop .main-category > li a i {
   display: inline-block;
-  float: right;
+  /* float: inline-end; */
 }
 .header.shop .main-category li a {
   font-size: 14px;
@@ -1011,7 +1013,7 @@ body {
   display: none;
   padding-top: 1px;
   margin-left: 5px;
-  float: right;
+  /* float: right; */
 }
 .header.shop .main-category .sub-category a {
   padding: 5px;
@@ -1044,7 +1046,7 @@ body {
 .header.shop .main-category .sub-PHONES a i {
   display: inline-block;
   display: none;
-  float: right;
+  /* float: right; */
   padding-top: 5px;
   margin-left: 5px;
 }
@@ -1079,7 +1081,7 @@ body {
 .header.shop .main-category .sub-JEWELRY a i {
   display: inline-block;
   display: none;
-  float: right;
+  /* float: right; */
   padding-top: 5px;
   margin-right: 8px;
 }
@@ -1251,7 +1253,7 @@ body {
 .header.shop .menu-origin {
   float: none;
   display: inline-block;
-  float: right;
+  /* float: right; */
 }
 /* nav shop */
 .header.shop .nav li {
@@ -1363,7 +1365,7 @@ body {
   padding: 0;
   margin: 0;
   top: 20px;
-  float: right;
+  /* float: right; */
   position: relative;
 }
 .header.shop .right-bar .sinlge-bar.top-search a {
@@ -1409,7 +1411,7 @@ body {
 /* search-bar */
 .header.shop .search-bar form {
   display: inline-block;
-  float: left;
+  /* float: left; */
   width: 260px;
 }
 .header.shop .search-bar input {
@@ -1601,151 +1603,87 @@ body {
    Start :: |04|Small Banner| CSS
    Index
 ========================================*/
-.small-banner {
-  padding: 30px 0;
-  padding-bottom: 0;
-  margin: 50px 0px;
-}
 .small-banner .single-banner {
+  position: relative;
   overflow: hidden;
-  position: relative;
-  display: flex;
-  justify-content: center;
-}
-.small-banner #single-banner img {
-  width: 100%;
-  height: 450px;
-}
-.small-banner .single-banner img {
-  width: 100%;
-  height: 400px;
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-  border-radius: 5px;
-}
-.small-banner #single-banner2 {
-  position: relative;
-}
-.small-banner #single-banner2 .content {
-  background-color: #3339;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: end;
-  padding-bottom: 15px;
-  padding-bottom: 15px;
-  position: absolute;
-  top: 550px;
-  transition: all 1s;
-  border-top-right-radius: 7px;
-  border-top-left-radius: 7px;
-}
-.small-banner #single-banner2:hover .content {
-  position: absolute;
-  top: 200px;
-}
-.small-banner #single-banner2 .content .view {
-  position: absolute;
-  top: -10px;
-  left: 20px;
-}
-.small-banner #single-banner2 .content .view i {
-  margin-left: 10px;
-}
-.small-banner #single-banner2 .single-banner .new {
-  position: absolute;
-  top: 0px;
-  right: 10px;
-  z-index: 3;
-  background-color: #8fb339;
-  padding: 5px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-top-style: none;
-  color: #fff;
-}
-.small-banner #single-banner .content {
-  display: flex;
-  justify-content: start;
-  align-items: end;
-  width: 100%;
-  height: 100%;
-  padding-left: 0px;
-}
-.small-banner #single-banner3 {
-  height: 114px;
-  z-index: 2;
-  margin-top: -110px;
-  background-color: antiquewhite;
-  width: 60%;
-  margin-right: 38px;
-}
-.small-banner #single-banner3 img {
-  height: 115px;
-}
-.small-banner #single-banner .content div {
-  color: #fff;
-}
-.small-banner #single-banner .content div h2 span {
-  color: #8fb339;
-}
-.small-banner #single-banner .content div {
-  padding: 50px;
 }
 .small-banner .single-banner .content {
   position: absolute;
+  top: 0;
   left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  padding-left: 35px;
-}
-.small-banner .single-banner h3 {
-  font-size: 22px;
-  font-weight: 700;
-  text-transform: capitalize;
-  color: #fff;
-}
-.small-banner .single-banner h3 span {
-  color: #8fb339;
-}
-.small-banner .single-banner p {
-  font-size: 14px;
-  color: #8fb339;
-  font-weight: 500;
-  margin-bottom: 5px;
-  text-transform: capitalize;
-}
-.small-banner #single-banner a {
-  color: #fff;
-  background-color: #8fb339;
-  padding: 8px;
-  font-weight: bold;
-  margin-top: 0px;
-  width: 110px;
-  text-align: center;
-}
-.small-banner #single-banner a:hover {
-  box-shadow: inset 95px 41px 0px darkslategrey;
-}
-
-.small-banner .single-banner a {
-  color: #fff;
-  margin-top: 22px;
-  display: block;
-  font-size: 12px;
-  font-weight: 500;
-  display: inline-block;
-  text-transform: uppercase;
-  border-bottom: 2px solid #fff;
+  width: 100%;
+  height: 100%;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding: 55px 20px;
+  color: #fff;
 }
-.small-banner .single-banner .Discover {
+.small-banner .single-banner .content .btn {
+  padding: 6px 10px;
+  width: 50%;
+  background-color: #8fb339;
+  font-weight: 800;
+}
+.small-banner .single-banner .content .btn:hover {
+  background-color: #222;
+}
+.small-banner .single-banner-1 {
+  position: relative;
+  overflow: hidden;
+}
+/* .small-banner .single-banner-1 img {
+  height: 400px;
+} */
+.small-banner .single-banner-1 .new {
+  position: absolute;
+  top: 0;
+  right: 5%;
+  background-color: #8fb339;
+  color: #fff;
+  padding: 9px;
+  border-radius: 0px 0px 5px 5px;
+  z-index: 1;
+}
+.small-banner .single-banner-1 .content {
+  position: absolute;
+  top: 91%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  color: #fff;
+  padding-bottom: 20px;
+  background-color: #2125296b;
+  border-radius: 5px 5px 0 0;
+  transition: all 1s;
+}
+.small-banner .single-banner-1:hover > .content {
+  top: 0;
+}
+.small-banner .single-banner-1 .content .view {
+  position: absolute;
+  top: 2%;
+  left: 5%;
+  border-bottom: solid 1px;
+  padding: 2px 5px;
+  font-size: 17px;
+}
+.small-banner .single-banner-1 .content .Discover {
+  margin-top: 20px;
   color: #8fb339;
-  border-color: #8fb339;
+  font-size: 20px;
+  font-weight: bolder;
+  border-bottom: solid;
+  padding: 2px 32px;
+}
+.small-banner .single-banner-1 .content p {
+  color: #8fb339;
+  margin-left: -72px;
+  font-weight: 900;
 }
 /*======================================
    End Small Banner CSS
@@ -2804,7 +2742,7 @@ body {
 }
 /* qty */
 .shopping-cart tbody .qty .input-group {
-  width: 175px;
+  width: 100%;
   display: inline-block;
 }
 .shopping-cart .qty .button {
@@ -2948,7 +2886,7 @@ body {
 }
 .shopping-cart .total-amount .right ul li span {
   display: inline-block;
-  float: right;
+  /* float: right; */
 }
 .shopping-cart .total-amount .right .button5 .btn {
   text-align: center;
@@ -3157,7 +3095,7 @@ body {
 }
 .shop.checkout .single-widget .content ul li span {
   display: inline-block;
-  float: right;
+  /* float: right; */
 }
 .shop.checkout .single-widget .content ul li.last {
   padding-top: 12px;
@@ -4023,7 +3961,7 @@ body {
   background-color: #8fb339;
   border-radius: 50px;
   position: absolute;
-  top: 11%;
+  top: 3%;
   right: 27%;
   transition: all 1s;
 }
@@ -4708,7 +4646,7 @@ body {
 }
 .shop .single-shorter label {
   display: inline-block;
-  float: left;
+  /* float: left; */
   margin: 4px 5px 0 0;
   font-weight: 500;
 }
