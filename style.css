@@ -2673,6 +2673,7 @@ body {
 }
 /* form-group */
 .product-name .form-group .nice-select {
+  width: 100%;
   margin-bottom: 0px;
   height: 35px;
   font-size: 11px;
@@ -2695,7 +2696,7 @@ body {
 }
 /* size-select */
 .product-name .size-select {
-  width: 80%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -3213,20 +3214,27 @@ body {
   margin-left: -25px;
 }
 .shop.login .Register {
-  /* border: 1px solid #ccccccab; */
-  padding: 10px;
-  margin-top: 61px;
-  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 84%;
+  padding: 20px 10px;
 }
 .shop.login .Reg-h {
+  position: relative;
+  font-size: 35px;
+  color: #333;
   font-weight: 400;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  padding-bottom: 20px;
   text-align: center;
 }
 .shop.login .Reg-h:before {
   position: absolute;
   content: "";
-  left: 49%;
-  top: 12%;
+  left: 50%;
   bottom: 0;
   height: 2px;
   width: 50px;
@@ -3284,19 +3292,15 @@ body {
 .shop.login .form .form-group.login-btn {
   margin: 0;
 }
-.shop.login .Register .Register-btn {
-  margin-top: 105px;
-}
+
 .shop.login .form button {
   border: none;
 }
 .shop.login .form .btn,
 .shop.login .Register .btn {
-  display: inline-block;
-  margin-right: 10px;
-  height: 46px;
-  color: #fff;
+  margin-right: 2px;
   line-height: 20px;
+  color: #fff;
 }
 .shop.login .form .btn:hover,
 .shop.login .Register .btn:hover {
@@ -4386,7 +4390,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 25px;
 }
 .Advertisement .img2 img {
   height: 225px;
@@ -4394,9 +4397,6 @@ body {
 .Advertisement .img1 img,
 .Advertisement video {
   width: 100%;
-
-  margin-bottom: 20px;
-  margin-left: -20px;
 }
 .Advertisement .img .text {
   position: absolute;
@@ -4437,7 +4437,7 @@ body {
   position: relative;
 }
 .testimonial .img img {
-  width: 25%;
+  width: 30%;
   height: 65%;
   z-index: 2;
   border-radius: 50px;
@@ -4628,10 +4628,6 @@ body {
 ========================================*/
 .shop .shop-top {
   background: #f6f7fb;
-  padding: 20px 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 .shop .shop-shorter {
   float: left;
@@ -4669,6 +4665,7 @@ body {
 }
 .shop .nice-select .list {
   border-radius: 0px;
+  width: 100%;
 }
 .shop .nice-select .option.selected {
   font-weight: 500;
@@ -4839,13 +4836,92 @@ body {
 }
 /* MAY-ALSO-LINK */
 .MAY-ALSO-LINK {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .MAY-ALSO-LINK .list-content .product-img img {
   height: 200px;
 }
-.MAY-ALSO-LINK.list-content .product-img img {
+.MAY-ALSO-LINK .list-content .product-img img {
   height: 350px;
+}
+/*  */
+.MAY-ALSO-LINK .list-content .banner {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+}
+.MAY-ALSO-LINK .list-content .banner h6 {
+  padding: 4px 10px;
+  color: #fff;
+  font-size: 15px;
+}
+.MAY-ALSO-LINK .list-content .product-img {
+  position: relative;
+}
+.MAY-ALSO-LINK .list-content .product-img img {
+  height: 350px;
+}
+.MAY-ALSO-LINK .list-content .card-body .card-title {
+  display: flex;
+  justify-content: space-between;
+}
+.MAY-ALSO-LINK .list-content .product-img a {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+  font-size: 10px;
+  transition: all 1s;
+  visibility: hidden;
+  padding: 8px 17px;
+}
+.MAY-ALSO-LINK .list-content {
+  height: 400px;
+  border: none;
+}
+.MAY-ALSO-LINK .list-content .product-img:hover a {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1.1);
+}
+.MAY-ALSO-LINK .list-content .product-img a:hover {
+  background-color: #8fb339;
+  color: #fff;
+}
+.MAY-ALSO-LINK .list-content .card-body .btn {
+  font-size: 10px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #8fb339;
+  padding: 9px 17px;
+}
+.MAY-ALSO-LINK .list-content .footer-card {
+  height: 50px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  overflow-y: hidden;
+  max-height: 0px;
+  transition: all 0.8s;
+}
+.MAY-ALSO-LINK .list-content:hover .footer-card {
+  max-height: 50px;
+  overflow-y: visible;
+}
+.MAY-ALSO-LINK .list-content .footer-card .fa-share-nodes,
+.MAY-ALSO-LINK .list-content .footer-card .fa-heart {
+  font-size: 9px;
+  padding: 9px;
+  border: solid 1px #b9b9b9;
+  transition: all 1s;
+}
+.MAY-ALSO-LINK .list-content .footer-card .fa-share-nodes:hover,
+.MAY-ALSO-LINK .list-content .footer-card .fa-heart:hover {
+  background-color: #8fb339;
+  color: #fff;
 }
 /*====================================================
    End |31|related products item & MAY ALSO LINK| CSS
@@ -5157,6 +5233,15 @@ body {
   border-radius: 16px;
   height: 75px;
   width: 100%;
+}
+.Lest-Seen .col-xl-1{
+  padding: 5px;
+}
+.Lest-Seen .card-body{
+  padding: 8px;
+}
+.Lest-Seen .card-img-top{
+  height: 130px;
 }
 /*======================================
    End |36|Lest Seen| css
@@ -5488,8 +5573,8 @@ textarea {
 .woo-account-page .Account .PAGE {
   display: flex;
   align-items: center;
-  justify-content: right;
-  width: 50%;
+  justify-content: space-between;
+  width: 100%;
   height: 50px;
 }
 .woo-account-page .Account .nice-select {
@@ -5500,7 +5585,7 @@ textarea {
   width: 10%;
 }
 .woo-account-page .Account .PAGES {
-  width: 50%;
+  width: 25%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -5539,12 +5624,13 @@ textarea {
 }
 .LASR-SEEN .card img {
   border-radius: 10px;
+  height: 100px;
 }
 .LASR-SEEN .card:hover > img {
   opacity: 0.5;
 }
 .LASR-SEEN .card .card-body {
-  padding: 0px;
+  padding: 5px;
 }
 .LASR-SEEN {
   position: relative;
@@ -5553,13 +5639,14 @@ textarea {
   position: absolute;
   content: "";
   left: 0;
-  top: 37px;
+  bottom: -5px;
   height: 2px;
-  width: 50px;
+  width: 70px;
   background: #8fb339;
 }
 .LASR-SEEN .title {
   margin-bottom: -12px;
+  position: relative;
 }
 /*=============================
 	 End |entry-content|CSS
