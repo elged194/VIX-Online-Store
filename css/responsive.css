@@ -7,7 +7,14 @@
     top: 18.2%;
   }
   .header .nav .MEN .dropdown {
-    left: -423px;
+    left: -459px;
+  }
+  .Advertisement .img2 img {
+    height: 230px;
+    margin-bottom: 10px;
+  }
+  .LASR-SEEN .col-xl-1 {
+    padding: 10px;
   }
 }
 /* Laptop  */
@@ -36,6 +43,32 @@
   }
   .Nav-Corner {
     top: 19.6%;
+  }
+  .Advertisement .img2 img {
+    height: 200px;
+    margin-bottom: 10px;
+  }
+  .SAVED-ITEM .card-body {
+    padding: 10px;
+  }
+  .SAVED-ITEM .card-title {
+    flex-direction: column;
+    font-size: 13px;
+  }
+  .SAVED-ITEM .product-img img {
+    height: 200px;
+  }
+  .related-products-item .list-content .card-body .card-title {
+    flex-direction: column;
+  }
+  .product-name .cart-total {
+    padding: 15px;
+  }
+  .LASR-SEEN .card img {
+    height: 200px;
+  }
+  .Lest-Seen .card-img-top {
+    height: 200px;
   }
 }
 /* Tablet Screen */
@@ -69,12 +102,8 @@
   }
 
   .SAVED-ITEM .list-content .product-img img {
-    height: 235px;
+    height: 255px;
   }
-  .MAY-ALSO-LINK .list-content .product-img img {
-    height: auto;
-  }
-
   .breadcrumbs {
     padding: 20px 0;
   }
@@ -280,13 +309,27 @@
     margin: 0px;
     padding: 5px 0px;
   }
+  .Lest-Seen .card-img-top {
+    height: 150px;
+  }
+  .Lest-Seen .col-md-2 {
+    padding: 10px;
+  }
+  .shop.login .Register {
+    margin-bottom: 50px;
+  }
+  .LASR-SEEN .card img {
+    height: 150px;
+  }
   .header.shop .right-content .list-main .nice-select {
     width: 100px;
   }
   .header.shop .right-content .list-main .nice-select .list {
     top: 156%;
   }
-
+  .testimonial .img img {
+    width: 29%;
+  }
   .Nav-Corner {
     top: 29.6%;
   }
@@ -298,6 +341,15 @@
   .header.shop .right-content .list-main {
     justify-content: space-evenly;
     padding: 3px 0px;
+  }
+  .MAY-ALSO-LINK .list-content .product-img img {
+    height: 250px;
+  }
+  .MAY-ALSO-LINK .list-content {
+    height: 445px;
+  }
+  .MAY-ALSO-LINK .list-content .card-body .card-title {
+    flex-direction: column;
   }
   /* index > Women */
   .product-large img {
@@ -315,13 +367,16 @@
   .Advertisement .img2 img {
     height: auto;
   }
+  .Advertisement .col-sm-12 {
+    padding: 10px 0px;
+  }
   /* My-account */
   .woo-account-page .LASR-SEEN .row2 {
     display: none;
   }
 
   .woo-account-page .woocommerce-MyAccount-content h2:before {
-    left: 47%;
+    left: 44%;
     width: 100px;
   }
   /* My-account */
@@ -334,15 +389,20 @@
     padding: 90px 0 90px;
   }
   .shop-list .list-content .product-img img {
-    height: 451px;
+    height: 340px;
   }
   .related-products-item .list-content .product-img img {
-    height: 400px;
+    height: 450px;
   }
   .related-products-item .list-content {
-    height: auto;
+    height: 625px;
   }
-
+  .products-item .col-lg-6 {
+    padding: 5px 15px;
+  }
+  .Advertisement {
+    margin: 50px 0;
+  }
   .woo-account-page .woocommerce-MyAccount-content,
   .woo-account-page .woocommerce-MyAccount-navigation {
     float: none;
@@ -810,7 +870,7 @@
   }
   .shop-list .list-content {
     margin-top: 30px;
-    height: 602px;
+    height: 473px;
   }
   .shop-list .list-content .btn {
     height: auto;
@@ -862,12 +922,29 @@
   .footer .single-footer {
     padding: 20px 0;
   }
+  .small-banner .col-md-6,
+  .small-banner .col-12 {
+    padding: 20px 10px !important;
+  }
+  .testimonial .box1::after {
+    left: -168px;
+    top: -79px;
+  }
 }
 /* Mobile Screen */
 @media only screen and (max-width: 425px) {
   .header.shop .right-content .list-main .nice-select {
     padding: 0px;
     width: 53px;
+  }
+  .shop.login .Reg-h {
+    margin-top: 25px;
+  }
+  .LASR-SEEN .card img {
+    height: 110px;
+  }
+  .woo-account-page .Account .PAGES {
+    width: 50%;
   }
   /* slider */
   .hero-slider .carousel img {
@@ -879,7 +956,15 @@
   .carousel-indicators {
     margin-bottom: 0rem;
   }
-
+  .Lest-Seen .card-img-top {
+    height: 165px;
+  }
+  .Lest-Seen .col-4 {
+    padding: 8px;
+  }
+  .Lest-Seen .card-body {
+    padding: 10px;
+  }
   .header .search-form {
     left: -185px;
     top: 40px;
@@ -900,16 +985,26 @@
   .header.shop .right-content .list-main {
     justify-content: space-between;
   }
+  .related-products .col-lg-6 {
+    padding-top: 5px;
+  }
+  .product-name .size-select label span {
+    padding: 3px 5px;
+    border: solid 1px #333;
+    font-size: 13px;
+  }
+
   /* index >>  nav bar */
   .Nav-Corner {
     top: 26.2%;
     right: -100px;
   }
-  .small-banner .col-6 {
-    padding: 20px 10px;
-  }
+
   .shop-list .list-content {
-    height: 710px;
+    height: 703px;
+  }
+  .testimonial .box1::after {
+    left: -143px;
   }
   .shop-list .list-content .product-img img {
     height: auto;
@@ -1037,7 +1132,7 @@
     display: block;
     position: absolute;
     right: 50px;
-    top: 4px;
+    top: 6px;
   }
   .header.shop .logo {
     margin-left: 11px;
@@ -1182,11 +1277,13 @@
     margin-bottom: 30px;
     line-height: 18px;
   }
-  .shop.login .form .btn {
+  .shop.login .form .btn,
+  .shop.login .Register .btn {
     width: 100%;
     text-align: center;
     margin-bottom: 10px;
   }
+
   .shop.login .login-form .lost-pass {
     margin-left: 0;
   }
@@ -1200,9 +1297,8 @@
   }
   .shop .view-mode {
     float: right;
-    float: none;
-    display: block;
-    width: 100%;
+    display: flex;
+    align-items: flex-end;
   }
   .shop .view-mode li {
     display: inline-block;
@@ -1212,21 +1308,15 @@
     margin-top: 4px;
     width: 100%;
     display: block;
-    display: inline-block;
-    /* display: ; */
   }
   .shop .view-mode li a {
-    width: 80px;
+    width: 43px;
     height: 32px;
-    background: transparent;
-    border: 1px solid #77777775;
-    text-align: center;
-    display: block;
-    line-height: 32px;
-    color: #888;
-    border-radius: 0px;
-    display: inline-block;
-    margin-bottom: 10px;
+  }
+  .shop-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
   }
   .shop.single .rating-author {
     margin-right: 0;
@@ -1341,10 +1431,22 @@
   }
 }
 @media only screen and (max-width: 375px) {
+  .shop-list .list-content {
+    height: 635px;
+  }
+  .LASR-SEEN .col-3 {
+    padding: 8px;
+  }
 }
 @media only screen and (max-width: 320px) {
   .preloader-inner {
     left: 43%;
+  }
+  .LASR-SEEN .col-3 {
+    padding: 5px;
+  }
+  .LASR-SEEN .card .card-body {
+    padding: 2px;
   }
   .Nav-Corner {
     top: 28.2%;
@@ -1369,5 +1471,35 @@
   }
   .SAVED-ITEM .list-content .card-body .card-title h6 {
     font-size: 13px;
+  }
+  .testimonial .img img {
+    width: 48%;
+  }
+  .shop-list .list-content {
+    height: 547px;
+  }
+  .MAY-ALSO-LINK .card-body {
+    padding: 5px;
+  }
+  .MAY-ALSO-LINK .product-img img {
+    height: 200px;
+  }
+  .MAY-ALSO-LINK .list-content {
+    height: 375px;
+  }
+  .MAY-ALSO-LINK .list-content .product-img img {
+    height: 190px;
+  }
+  .LASR-SEEN .title {
+    font-size: 20px;
+  }
+  .Advertisement .img .text h2 {
+    font-size: 20px;
+  }
+  .Advertisement .img .text {
+    font-size: 10px;
+  }
+  .Lest-Seen .card-img-top {
+    height: 125px;
   }
 }
