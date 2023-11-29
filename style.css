@@ -59,11 +59,16 @@ body {
 .gold {
   color: goldenrod;
 }
-.hr-title {
-  width: 15%;
-  margin: 5px 0px;
-  height: 2px;
-  background-color: #8fb339;
+.title {
+  position: relative;
+}
+.title:before {
+  position: absolute;
+  content: "";
+  bottom: -18px;
+  height: 3px;
+  width: 50px;
+  background: #8fb339;
 }
 .btn {
   position: relative;
@@ -85,6 +90,13 @@ body {
 .btn:hover {
   color: #fff;
   background: #8fb339;
+}
+section {
+  margin: 50px 0;
+}
+/* animated */
+.animated {
+  animation-delay: 0.5s; /* تأخير ابتدائي */
 }
 /*=====================================
     // Start scrollUp 
@@ -1991,15 +2003,15 @@ body {
 .shop-sidebar .single-widget:first-child {
   margin-top: 0;
 }
-.shop-sidebar .single-widget .title {
+.shop-sidebar .single-widget .titlee {
   position: relative;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: bold;
   text-transform: capitalize;
   margin-bottom: 25px;
   display: block;
   border-bottom: 1px solid #8fb339;
-  padding-bottom: 15px;
+  padding: 15px 0;
 }
 
 /*******|     Start Category List CSS  |******/
@@ -2025,13 +2037,11 @@ body {
 
 /*******|     Start Recent Post CSS  |******/
 .shop-sidebar .single-post {
-  position: relative;
-  margin-top: 30px;
-  padding-bottom: 30px;
+  margin: 30px 0;
   border-bottom: 1px solid #ddd;
-}
-.shop-sidebar .single-post.first {
-  padding-top: 0px;
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
 }
 .shop-sidebar .single-post:last-child {
   padding-bottom: 0px;
@@ -2040,13 +2050,10 @@ body {
 .shop-sidebar .single-post .image img {
   height: 80px;
   width: 80px;
-  position: absolute;
-  left: 0;
-  top: 0;
-  border-radius: 100%;
+  border-radius: 50%;
 }
 .shop-sidebar .single-post .content {
-  padding-left: 100px;
+  margin-left: 20px;
 }
 .shop-sidebar .single-post .content h5 {
   line-height: 18px;
@@ -2432,7 +2439,9 @@ body {
   margin-top: 30px;
   border: 1px solid #eee;
   padding: 10px;
-  /* height: 250px; */
+}
+.shop-home-list .single-list .title::before {
+  background-color: transparent;
 }
 @media only screen and (min-width: 770px) {
   .shop-home-list .single-list {
@@ -2623,7 +2632,6 @@ body {
 }
 #magnifying-img {
   width: 100%;
-  height: 305px;
 }
 
 /* *|product-name|* */
@@ -2903,13 +2911,7 @@ body {
 .shopping-cart .nav2 {
   width: 100%;
 }
-.shopping-cart .container hr {
-  width: 5%;
-  /* padding: 0px; */
-  margin: 5px 0px;
-  height: 2px;
-  background-color: #8fb339;
-}
+
 .shopping-cart .nav2 ul {
   display: flex;
   justify-content: space-between;
@@ -3190,7 +3192,7 @@ body {
    Page |ALL|
 ========================================*/
 .shop.login {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 .shop.login .login-form h2 {
   position: relative;
@@ -3389,8 +3391,8 @@ body {
    Item Name
 ========================================*/
 .shop-services.section {
-  padding: 80px 0 0px 0;
   background: #fff;
+  padding: 50px 0 0 0;
 }
 .shop-services.home {
   padding: 60px 0;
@@ -4032,15 +4034,29 @@ body {
   padding-top: 30px;
   padding-bottom: 18px;
 }
-#demo {
-  font-size: 35px;
-  margin: 50px auto;
-  width: 100%;
-  color: black;
+
+.deal-of-week #countdown {
   display: flex;
-  justify-content: space-evenly;
-  position: relative;
-  font-weight: 100;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 2em;
+  background-color: #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.deal-of-week #countdown div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+}
+
+.deal-of-week #countdown span {
+  font-size: 0.8em;
+  color: #8fb339;
 }
 .deal-of-week .time {
   width: 100%;
@@ -4276,15 +4292,11 @@ body {
   display: none;
 }
 .filter-size .box-size .size-select {
-  width: 80%;
-  display: flex;
-
-  align-items: center;
-  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px 0;
 }
 .filter-size .box-size .size-select label {
-  margin-bottom: 0px;
-  margin-left: 5px;
+  margin-bottom: 15px;
 }
 .filter-size .box-size .size-select label span {
   padding: 3px 10px;
@@ -4437,7 +4449,7 @@ body {
   position: relative;
 }
 .testimonial .img img {
-  width: 30%;
+  width: 24%;
   height: 65%;
   z-index: 2;
   border-radius: 50px;
@@ -4447,14 +4459,16 @@ body {
   color: #333;
   text-align: center;
   padding: 0px 10px;
+  position: relative;
 }
 .testimonial .box1::after {
-  content: ".";
-  border-left: 2px solid gray;
-  position: relative;
-  left: -179px;
-  top: -87px;
-  padding: 4px 0px;
+  content: "";
+  position: absolute;
+  top: 53%;
+  right: 0;
+  width: 2px;
+  height: 50px;
+  background: #666;
 }
 .testimonial .box1 .fa-brands {
   font-size: 16px;
@@ -4715,14 +4729,6 @@ body {
    Item name
    Products
 ========================================================*/
-
-.related-products-item hr {
-  width: 13%;
-  padding: 0px;
-  margin: 5px 0px;
-  height: 2px;
-  background-color: #8fb339;
-}
 .related-products-item .list-content .banner {
   position: absolute;
   top: 0px;
@@ -4813,10 +4819,6 @@ body {
   background-color: #8fb339;
   color: #fff;
 }
-.related-products .title {
-  border-bottom: solid 1px #8fb339;
-  margin-bottom: -5px;
-}
 .related-products .products-item .fa-heart,
 .related-products .products-item .fa-cart-shopping,
 .related-products .products-item .fa-share-from-square {
@@ -4827,6 +4829,7 @@ body {
 }
 .related-products .products-item img {
   border-radius: 5px;
+  height: 100%;
 }
 .related-products .fa-heart:hover,
 .related-products .fa-cart-shopping:hover,
@@ -5026,8 +5029,9 @@ body {
 .shop-list .list-content .footer-card {
   height: 50px;
   display: flex;
-  align-items: end;
+  align-items: center;
   justify-content: space-between;
+
   overflow-y: hidden;
   max-height: 0px;
   transition: all 0.8s;
@@ -5063,8 +5067,16 @@ body {
   margin-top: 5px;
   font-weight: bold;
 }
+.shop-list .card-body {
+  padding: 10px;
+}
 /*======================================
    End |33|Shop List| CSS
+========================================*/
+
+/*======================================
+   Start |LAST-ORDERS-ChecOut| CSS
+   ChecOut
 ========================================*/
 
 /*======================================
@@ -5072,11 +5084,10 @@ body {
    Products
 ========================================*/
 .pagination {
-  text-align: left;
-  margin: 50px 0 0 0;
-  display: block;
+  text-align: center;
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 .pagination.center {
   text-align: center;
@@ -5218,10 +5229,6 @@ body {
    Start |36|Lest Seen| CSS
    Products
 ========================================*/
-.Lest-Seen .title {
-  border-bottom: solid 1px #8fb339;
-  margin-bottom: -5px;
-}
 .Lest-Seen .row {
   display: flex;
   justify-content: space-evenly;
@@ -5234,13 +5241,13 @@ body {
   height: 75px;
   width: 100%;
 }
-.Lest-Seen .col-xl-1{
+.Lest-Seen .col-xl-1 {
   padding: 5px;
 }
-.Lest-Seen .card-body{
+.Lest-Seen .card-body {
   padding: 8px;
 }
-.Lest-Seen .card-img-top{
+.Lest-Seen .card-img-top {
   height: 130px;
 }
 /*======================================
