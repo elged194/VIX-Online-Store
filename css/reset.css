@@ -1,11 +1,3 @@
-/* =====================================
-Template Name: Eshop
-Author Name: Naimur Rahman
-Author URI: http://www.wpthemesgrid.com/
-Description: Eshop - eCommerce HTML5 Template.
-Version:1.0
-========================================*/
-
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
@@ -255,7 +247,7 @@ big {
 }
 
 .section {
-  padding: 100px 0;
+  padding: 50px 0;
   position: relative;
 }
 .section-title {
@@ -278,7 +270,7 @@ big {
   content: "";
   height: 2px;
   width: 50px;
-  background: #f7941d;
+  background: #8fb339;
   left: 50%;
   bottom: 0;
   margin-left: -25px;
@@ -1170,7 +1162,7 @@ object {
 .modal-dialog .modal-content .modal-header .close:hover {
   color: #fff;
   border-color: transparent;
-  background: #f7941d;
+  background: #8fb339;
 }
 .modal-dialog .modal-content .modal-body {
   padding: 0px;
@@ -1342,7 +1334,7 @@ object {
   text-transform: lowercase;
 }
 .quickview-content .nice-select .list li:hover {
-  background: #f7941d;
+  background: #8fb339;
   color: #fff;
 }
 
@@ -1376,7 +1368,7 @@ object {
   width: 5px;
   height: 5px;
   border-radius: 100%;
-  background-color: #f7941d;
+  background-color: #8fb339;
   content: "";
   left: 0;
   top: 50%;
@@ -1453,7 +1445,7 @@ object {
 }
 
 .quickview-content .quickview-action-wrap .quickview-cart a:hover {
-  background-color: #f7941d;
+  background-color: #8fb339;
   color: #333;
 }
 
@@ -1493,10 +1485,10 @@ object {
   margin-left: 30px;
 }
 .quickview-content .quickview-action-wrap .quickview-wishlist a:hover {
-  color: #f7941d;
+  color: #8fb339;
 }
 .quickview-content .quickview-action-wrap .quickview-compare a:hover {
-  color: #f7941d;
+  color: #8fb339;
 }
 @media only screen and (max-width: 767px) {
   .quickview-content .quickview-action-wrap .quickview-compare {
@@ -1717,7 +1709,7 @@ object {
 }
 .modal .owl-carousel .owl-nav div:hover {
   color: #fff;
-  background: #f7941d;
+  background: #8fb339;
 }
 .modal .owl-carousel .owl-controls .owl-nav .owl-prev {
   left: 0;
@@ -1758,7 +1750,7 @@ object {
   border: none;
 }
 .quickview-content .quantity .button .btn:hover {
-  color: #f7941d;
+  color: #8fb339;
 }
 .quickview-content .quantity .input-number {
   border: 1px solid #eceded;
@@ -1788,7 +1780,7 @@ object {
 }
 .quickview-content .add-to-cart .btn:hover {
   color: #fff;
-  background: #f7941d;
+  background: #8fb339;
 }
 .quickview-content .add-to-cart .btn.min {
   padding: 0 20px;
@@ -1848,7 +1840,7 @@ object {
 .default-social ul li a i {
 }
 .default-social ul li a:hover {
-  color: #f7941d;
+  color: #8fb339;
 }
 /* End Modal Css */
 
