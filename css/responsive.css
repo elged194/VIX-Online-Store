@@ -1457,6 +1457,9 @@
   .footer .single-footer {
     padding: 12px 0;
   }
+  .deal-of-week #countdown {
+    font-size: 20px;
+  }
 }
 @media only screen and (max-width: 375px) {
   .shop-list .list-content {
@@ -1529,5 +1532,8 @@
   }
   .Lest-Seen .card-img-top {
     height: 125px;
+  }
+  .deal-of-week #countdown {
+    font-size: 18px;
   }
 }
