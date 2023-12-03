@@ -146,8 +146,8 @@ section {
 }
 .preloader-inner {
   position: absolute;
-  top: 45%;
-  left: 47%;
+  top: 50%;
+  left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -4037,12 +4037,11 @@ section {
 
 .deal-of-week #countdown {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 20px;
   font-size: 2em;
   background-color: #ddd;
-  padding: 20px;
+  padding: 20px 10px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -4841,12 +4840,9 @@ section {
 .MAY-ALSO-LINK {
   margin-top: 50px;
 }
-.MAY-ALSO-LINK .list-content .product-img img {
+/* .MAY-ALSO-LINK .list-content .product-img img {
   height: 200px;
-}
-.MAY-ALSO-LINK .list-content .product-img img {
-  height: 350px;
-}
+} */
 /*  */
 .MAY-ALSO-LINK .list-content .banner {
   position: absolute;
@@ -4862,12 +4858,9 @@ section {
 .MAY-ALSO-LINK .list-content .product-img {
   position: relative;
 }
-.MAY-ALSO-LINK .list-content .product-img img {
-  height: 350px;
-}
 .MAY-ALSO-LINK .list-content .card-body .card-title {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
 .MAY-ALSO-LINK .list-content .product-img a {
   position: absolute;
@@ -4882,8 +4875,11 @@ section {
   padding: 8px 17px;
 }
 .MAY-ALSO-LINK .list-content {
-  height: 400px;
+  height: 460px;
   border: none;
+}
+.MAY-ALSO-LINK .list-content .product-img img {
+  height: 260px;
 }
 .MAY-ALSO-LINK .list-content .product-img:hover a {
   opacity: 1;
