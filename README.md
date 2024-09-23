@@ -3,3 +3,4 @@
 
 ## Live Demo
 [Project URL](https://elged194.github.io/VIX-Online-Store/)
+- https://elged194.github.io/VIX-Online-Store/
